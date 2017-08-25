@@ -1,0 +1,3137 @@
+[
+  {
+    "name": "Franz",
+    "description": "Multi-Chats",
+    "exec": "/opt/franz/Franz",
+    "hidden": false,
+    "icon": "/opt/franz/resources/app.asar.unpacked/assets/franz.svg",
+    "filename": "alacarte-made-5f438562-72fb-11e7-8a31-fcaa14abb28e.desktop",
+    "id": "alacarte-made-5f438562-72fb-11e7-8a31-fcaa14abb28e.desktop",
+    "path": "/home/dyro/.local/share/applications/alacarte-made-5f438562-72fb-11e7-8a31-fcaa14abb28e.desktop"
+  },
+  {
+    "name": "Harmony",
+    "description": "Listen to music from everywhere",
+    "exec": "\"/home/dyro/Descargas/harmony-0.7.0-x64.AppImage\" %U",
+    "hidden": false,
+    "icon": "/home/dyro/.local/share/icons/hicolor/256x256/apps/appimagekit-harmony.png",
+    "filename": "appimagekit-harmony.desktop",
+    "id": "appimagekit-harmony.desktop",
+    "path": "/home/dyro/.local/share/applications/appimagekit-harmony.desktop"
+  },
+  {
+    "name": "Terminal",
+    "description": "Use the command line",
+    "exec": "gnome-terminal --hide-menubar",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/utilities-terminal.svg",
+    "filename": "gnome-terminal.desktop",
+    "id": "gnome-terminal.desktop",
+    "path": "/home/dyro/.local/share/applications/gnome-terminal.desktop"
+  },
+  {
+    "name": "Atom",
+    "description": "A hackable text editor for the 21st Century.",
+    "exec": "/usr/share/atom/atom %F",
+    "hidden": false,
+    "icon": "/usr/share/pixmaps/atom.png",
+    "filename": "atom.desktop",
+    "id": "atom.desktop",
+    "path": "/usr/share/applications/atom.desktop"
+  },
+  {
+    "name": "Bluetooth",
+    "description": "Configure Bluetooth settings",
+    "exec": "blueberry",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/bluetooth.svg",
+    "filename": "blueberry.desktop",
+    "id": "blueberry.desktop",
+    "path": "/usr/share/applications/blueberry.desktop"
+  },
+  {
+    "name": "Brasero",
+    "description": "Create and copy CDs and DVDs",
+    "exec": "brasero %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/brasero.png",
+    "filename": "brasero.desktop",
+    "id": "brasero.desktop",
+    "path": "/usr/share/applications/brasero.desktop"
+  },
+  {
+    "name": "Cerebro",
+    "description": "Extendable electron-based open-source Spolight and Alfred analogue",
+    "exec": "\"/opt/Cerebro/cerebro\"",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/1024x1024/apps/cerebro.png",
+    "filename": "cerebro.desktop",
+    "id": "cerebro.desktop",
+    "path": "/usr/share/applications/cerebro.desktop"
+  },
+  {
+    "name": "Color",
+    "description": "Color management settings",
+    "exec": "cinnamon-settings color",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-color.svg",
+    "filename": "cinnamon-color-panel.desktop",
+    "id": "cinnamon-color-panel.desktop",
+    "path": "/usr/share/applications/cinnamon-color-panel.desktop"
+  },
+  {
+    "name": "Display",
+    "description": "Change resolution and position of monitors and projectors",
+    "exec": "cinnamon-settings display",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-display.svg",
+    "filename": "cinnamon-display-panel.desktop",
+    "id": "cinnamon-display-panel.desktop",
+    "path": "/usr/share/applications/cinnamon-display-panel.desktop"
+  },
+  {
+    "name": "Network",
+    "description": "Network settings",
+    "exec": "cinnamon-settings network",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-network.svg",
+    "filename": "cinnamon-network-panel.desktop",
+    "id": "cinnamon-network-panel.desktop",
+    "path": "/usr/share/applications/cinnamon-network-panel.desktop"
+  },
+  {
+    "name": "Virtual keyboard",
+    "description": "Turn on-screen keyboard on or off",
+    "exec": "dbus-send --print-reply --dest=org.Cinnamon /org/Cinnamon org.Cinnamon.ToggleKeyboard",
+    "hidden": false,
+    "filename": "cinnamon-onscreen-keyboard.desktop",
+    "id": "cinnamon-onscreen-keyboard.desktop",
+    "path": "/usr/share/applications/cinnamon-onscreen-keyboard.desktop"
+  },
+  {
+    "name": "Applets",
+    "description": "Manage Cinnamon applets",
+    "exec": "cinnamon-settings applets",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-applets.svg",
+    "filename": "cinnamon-settings-applets.desktop",
+    "id": "cinnamon-settings-applets.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-applets.desktop"
+  },
+  {
+    "name": "Backgrounds",
+    "description": "Change your desktop's background",
+    "exec": "cinnamon-settings backgrounds",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-backgrounds.svg",
+    "filename": "cinnamon-settings-backgrounds.desktop",
+    "id": "cinnamon-settings-backgrounds.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-backgrounds.desktop"
+  },
+  {
+    "name": "Date & Time",
+    "description": "Manage date and time settings",
+    "exec": "cinnamon-settings calendar",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-date-time.svg",
+    "filename": "cinnamon-settings-calendar.desktop",
+    "id": "cinnamon-settings-calendar.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-calendar.desktop"
+  },
+  {
+    "name": "Preferred Applications",
+    "description": "Preferred Applications",
+    "exec": "cinnamon-settings default",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-default-applications.svg",
+    "filename": "cinnamon-settings-default.desktop",
+    "id": "cinnamon-settings-default.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-default.desktop"
+  },
+  {
+    "name": "Desklets",
+    "description": "Manage your Cinnamon desklets",
+    "exec": "cinnamon-settings desklets",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-desklets.svg",
+    "filename": "cinnamon-settings-desklets.desktop",
+    "id": "cinnamon-settings-desklets.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-desklets.desktop"
+  },
+  {
+    "name": "Desktop",
+    "description": "Manage your desktop icons",
+    "exec": "cinnamon-settings desktop",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-desktop.svg",
+    "filename": "cinnamon-settings-desktop.desktop",
+    "id": "cinnamon-settings-desktop.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-desktop.desktop"
+  },
+  {
+    "name": "Effects",
+    "description": "Control Cinnamon visual effects.",
+    "exec": "cinnamon-settings effects",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-desktop-effects.svg",
+    "filename": "cinnamon-settings-effects.desktop",
+    "id": "cinnamon-settings-effects.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-effects.desktop"
+  },
+  {
+    "name": "Extensions",
+    "description": "Manage your Cinnamon extensions",
+    "exec": "cinnamon-settings extensions",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-extensions.svg",
+    "filename": "cinnamon-settings-extensions.desktop",
+    "id": "cinnamon-settings-extensions.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-extensions.desktop"
+  },
+  {
+    "name": "Fonts",
+    "description": "Configure system fonts",
+    "exec": "cinnamon-settings fonts",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-fonts.svg",
+    "filename": "cinnamon-settings-fonts.desktop",
+    "id": "cinnamon-settings-fonts.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-fonts.desktop"
+  },
+  {
+    "name": "General",
+    "description": "Miscellaneous Cinnamon preferences",
+    "exec": "cinnamon-settings general",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-general.svg",
+    "filename": "cinnamon-settings-general.desktop",
+    "id": "cinnamon-settings-general.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-general.desktop"
+  },
+  {
+    "name": "Hot Corners",
+    "description": "Manage hotcorner settings",
+    "exec": "cinnamon-settings hotcorner",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-overview.svg",
+    "filename": "cinnamon-settings-hotcorner.desktop",
+    "id": "cinnamon-settings-hotcorner.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-hotcorner.desktop"
+  },
+  {
+    "name": "System Info",
+    "description": "Display system information",
+    "exec": "cinnamon-settings info",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-details.svg",
+    "filename": "cinnamon-settings-info.desktop",
+    "id": "cinnamon-settings-info.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-info.desktop"
+  },
+  {
+    "name": "Keyboard",
+    "description": "Manage keyboard settings and shortcuts",
+    "exec": "cinnamon-settings keyboard",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-keyboard.svg",
+    "filename": "cinnamon-settings-keyboard.desktop",
+    "id": "cinnamon-settings-keyboard.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-keyboard.desktop"
+  },
+  {
+    "name": "Mouse and Touchpad",
+    "description": "Control mouse and touchpad settings",
+    "exec": "cinnamon-settings mouse",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-mouse.svg",
+    "filename": "cinnamon-settings-mouse.desktop",
+    "id": "cinnamon-settings-mouse.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-mouse.desktop"
+  },
+  {
+    "name": "Notifications",
+    "description": "Notification preferences",
+    "exec": "cinnamon-settings notifications",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-notifications.svg",
+    "filename": "cinnamon-settings-notifications.desktop",
+    "id": "cinnamon-settings-notifications.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-notifications.desktop"
+  },
+  {
+    "name": "Panel",
+    "description": "Manage Cinnamon panel settings",
+    "exec": "cinnamon-settings panel",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-panel.svg",
+    "filename": "cinnamon-settings-panel.desktop",
+    "id": "cinnamon-settings-panel.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-panel.desktop"
+  },
+  {
+    "name": "Power Management",
+    "description": "Manage power settings",
+    "exec": "cinnamon-settings power",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-power.svg",
+    "filename": "cinnamon-settings-power.desktop",
+    "id": "cinnamon-settings-power.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-power.desktop"
+  },
+  {
+    "name": "Privacy",
+    "description": "Cinnamon privacy settings",
+    "exec": "cinnamon-settings privacy",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-privacy.svg",
+    "filename": "cinnamon-settings-privacy.desktop",
+    "id": "cinnamon-settings-privacy.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-privacy.desktop"
+  },
+  {
+    "name": "Screensaver",
+    "description": "Manage screen lock settings",
+    "exec": "cinnamon-settings screensaver",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-screensaver.svg",
+    "filename": "cinnamon-settings-screensaver.desktop",
+    "id": "cinnamon-settings-screensaver.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-screensaver.desktop"
+  },
+  {
+    "name": "Sound",
+    "description": "Manage sound settings",
+    "exec": "cinnamon-settings sound",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-sound.svg",
+    "filename": "cinnamon-settings-sound.desktop",
+    "id": "cinnamon-settings-sound.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-sound.desktop"
+  },
+  {
+    "name": "Startup Applications",
+    "description": "Manage your startup applications",
+    "exec": "cinnamon-settings startup",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-startup-programs.svg",
+    "filename": "cinnamon-settings-startup.desktop",
+    "id": "cinnamon-settings-startup.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-startup.desktop"
+  },
+  {
+    "name": "Themes",
+    "description": "Manage themes to change how your desktop looks",
+    "exec": "cinnamon-settings themes",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-themes.svg",
+    "filename": "cinnamon-settings-themes.desktop",
+    "id": "cinnamon-settings-themes.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-themes.desktop"
+  },
+  {
+    "name": "Window Tiling",
+    "description": "Manage window tiling preferences",
+    "exec": "cinnamon-settings tiling",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-tiling.svg",
+    "filename": "cinnamon-settings-tiling.desktop",
+    "id": "cinnamon-settings-tiling.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-tiling.desktop"
+  },
+  {
+    "name": "Accessibility",
+    "description": "Configure accessibility features",
+    "exec": "cinnamon-settings universal-access",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-universal-access.svg",
+    "filename": "cinnamon-settings-universal-access.desktop",
+    "id": "cinnamon-settings-universal-access.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-universal-access.desktop"
+  },
+  {
+    "name": "Account details",
+    "description": "Change your user preferences and password",
+    "exec": "cinnamon-settings user",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-user.svg",
+    "filename": "cinnamon-settings-user.desktop",
+    "id": "cinnamon-settings-user.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-user.desktop"
+  },
+  {
+    "name": "Users and Groups",
+    "description": "Add or remove users and groups",
+    "exec": "cinnamon-settings-users",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/system-users.svg",
+    "filename": "cinnamon-settings-users.desktop",
+    "id": "cinnamon-settings-users.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-users.desktop"
+  },
+  {
+    "name": "Windows",
+    "description": "Manage window preferences",
+    "exec": "cinnamon-settings windows",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-windows.svg",
+    "filename": "cinnamon-settings-windows.desktop",
+    "id": "cinnamon-settings-windows.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-windows.desktop"
+  },
+  {
+    "name": "Workspaces",
+    "description": "Manage workspace preferences",
+    "exec": "cinnamon-settings workspaces",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-workspaces.svg",
+    "filename": "cinnamon-settings-workspaces.desktop",
+    "id": "cinnamon-settings-workspaces.desktop",
+    "path": "/usr/share/applications/cinnamon-settings-workspaces.desktop"
+  },
+  {
+    "name": "System Settings",
+    "description": "Control Center",
+    "exec": "cinnamon-settings",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/preferences-system.svg",
+    "filename": "cinnamon-settings.desktop",
+    "id": "cinnamon-settings.desktop",
+    "path": "/usr/share/applications/cinnamon-settings.desktop"
+  },
+  {
+    "name": "Graphics Tablet",
+    "description": "Set button mappings and adjust stylus sensitivity for graphics tablets",
+    "exec": "cinnamon-settings wacom",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/cs-tablet.svg",
+    "filename": "cinnamon-wacom-panel.desktop",
+    "id": "cinnamon-wacom-panel.desktop",
+    "path": "/usr/share/applications/cinnamon-wacom-panel.desktop"
+  },
+  {
+    "name": "EasyTAG",
+    "description": "Edit audio file metadata",
+    "exec": "easytag %F",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/easytag.svg",
+    "filename": "easytag.desktop",
+    "id": "easytag.desktop",
+    "path": "/usr/share/applications/easytag.desktop"
+  },
+  {
+    "name": "Archive Manager",
+    "description": "Create and modify an archive",
+    "exec": "file-roller %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/file-roller.png",
+    "filename": "file-roller.desktop",
+    "id": "file-roller.desktop",
+    "path": "/usr/share/applications/file-roller.desktop"
+  },
+  {
+    "name": "Firefox Web Browser",
+    "description": "Browse the World Wide Web",
+    "exec": "firefox %u",
+    "hidden": false,
+    "icon": "/usr/share/pixmaps/firefox.png",
+    "filename": "firefox.desktop",
+    "id": "firefox.desktop",
+    "path": "/usr/share/applications/firefox.desktop"
+  },
+  {
+    "name": "GIMP Image Editor",
+    "description": "Create images and edit photographs",
+    "exec": "gimp-2.8 %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/gimp.png",
+    "filename": "gimp.desktop",
+    "id": "gimp.desktop",
+    "path": "/usr/share/applications/gimp.desktop"
+  },
+  {
+    "name": "Calculator",
+    "description": "Perform arithmetic, scientific or financial calculations",
+    "exec": "gnome-calculator",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/accessories-calculator.svg",
+    "filename": "gnome-calculator.desktop",
+    "id": "gnome-calculator.desktop",
+    "path": "/usr/share/applications/gnome-calculator.desktop"
+  },
+  {
+    "name": "Power Statistics",
+    "description": "Observe power management",
+    "exec": "gnome-power-statistics",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/gnome-power-statistics.svg",
+    "filename": "gnome-power-statistics.desktop",
+    "id": "gnome-power-statistics.desktop",
+    "path": "/usr/share/applications/gnome-power-statistics.desktop"
+  },
+  {
+    "name": "System Log",
+    "description": "View or monitor system log files",
+    "exec": "gnome-system-log-pkexec",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/logview.png",
+    "filename": "gnome-system-log.desktop",
+    "id": "gnome-system-log.desktop",
+    "path": "/usr/share/applications/gnome-system-log.desktop"
+  },
+  {
+    "name": "GNOME System Monitor",
+    "description": "View current processes and monitor system state",
+    "exec": "gnome-system-monitor",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/utilities-system-monitor.svg",
+    "filename": "gnome-system-monitor-kde.desktop",
+    "id": "gnome-system-monitor-kde.desktop",
+    "path": "/usr/share/applications/gnome-system-monitor-kde.desktop"
+  },
+  {
+    "name": "System Monitor",
+    "description": "View current processes and monitor system state",
+    "exec": "gnome-system-monitor",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/utilities-system-monitor.svg",
+    "filename": "gnome-system-monitor.desktop",
+    "id": "gnome-system-monitor.desktop",
+    "path": "/usr/share/applications/gnome-system-monitor.desktop"
+  },
+  {
+    "name": "Terminal",
+    "description": "Use the command line",
+    "exec": "gnome-terminal",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/utilities-terminal.svg",
+    "filename": "gnome-terminal.desktop",
+    "id": "gnome-terminal.desktop",
+    "path": "/usr/share/applications/gnome-terminal.desktop"
+  },
+  {
+    "name": "Tweak Tool",
+    "description": "Tweak advanced GNOME 3 settings",
+    "exec": "gnome-tweak-tool",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/gnome-tweak-tool.png",
+    "filename": "gnome-tweak-tool.desktop",
+    "id": "gnome-tweak-tool.desktop",
+    "path": "/usr/share/applications/gnome-tweak-tool.desktop"
+  },
+  {
+    "name": "Character Map",
+    "description": "Insert special characters into documents",
+    "exec": "gucharmap",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/accessories-character-map.png",
+    "filename": "gucharmap.desktop",
+    "id": "gucharmap.desktop",
+    "path": "/usr/share/applications/gucharmap.desktop"
+  },
+  {
+    "name": "Firewall Configuration",
+    "description": "An easy way to configure your firewall",
+    "exec": "gufw",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/gufw.svg",
+    "filename": "gufw.desktop",
+    "id": "gufw.desktop",
+    "path": "/usr/share/applications/gufw.desktop"
+  },
+  {
+    "name": "HexChat",
+    "description": "Chat with other people online",
+    "exec": "hexchat %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/hexchat.svg",
+    "filename": "hexchat.desktop",
+    "id": "hexchat.desktop",
+    "path": "/usr/share/applications/hexchat.desktop"
+  },
+  {
+    "name": "Htop",
+    "description": "Show System Processes",
+    "exec": "htop",
+    "hidden": false,
+    "icon": "/usr/share/pixmaps/htop.png",
+    "filename": "htop.desktop",
+    "id": "htop.desktop",
+    "path": "/usr/share/applications/htop.desktop"
+  },
+  {
+    "name": "Image Scan! for Linux",
+    "description": "Scan documents and images with your Epson scanner",
+    "exec": "iscan",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/scanner.png",
+    "filename": "iscan.desktop",
+    "id": "iscan.desktop",
+    "path": "/usr/share/applications/iscan.desktop"
+  },
+  {
+    "name": "K3b",
+    "description": "Disk writing program",
+    "exec": "k3b %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/128x128/apps/k3b.png",
+    "filename": "k3b.desktop",
+    "id": "kde4/k3b.desktop",
+    "path": "/usr/share/applications/kde4/k3b.desktop"
+  },
+  {
+    "name": "Backup Tool",
+    "description": "Make a backup of your home directory",
+    "exec": "mintBackup",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintbackup.svg",
+    "filename": "mintbackup.desktop",
+    "id": "kde4/mintbackup.desktop",
+    "path": "/usr/share/applications/kde4/mintbackup.desktop"
+  },
+  {
+    "name": "Driver Manager",
+    "description": "Manage the drivers for your devices",
+    "exec": "driver-manager",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintdrivers.svg",
+    "filename": "mintdrivers.desktop",
+    "id": "kde4/mintdrivers.desktop",
+    "path": "/usr/share/applications/kde4/mintdrivers.desktop"
+  },
+  {
+    "name": "Domain Blocker",
+    "description": "Block access to selected domain names",
+    "exec": "mintnanny",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintnanny.svg",
+    "filename": "mintNanny.desktop",
+    "id": "kde4/mintNanny.desktop",
+    "path": "/usr/share/applications/kde4/mintNanny.desktop"
+  },
+  {
+    "name": "Software Sources",
+    "description": "Configure the sources for installable software and updates",
+    "exec": "software-sources",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/software-sources.svg",
+    "filename": "mintsources.desktop",
+    "id": "kde4/mintsources.desktop",
+    "path": "/usr/share/applications/kde4/mintsources.desktop"
+  },
+  {
+    "name": "Upload Manager",
+    "description": "Define upload services",
+    "exec": "mintupload-manager",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintupload.svg",
+    "filename": "mintupload.desktop",
+    "id": "kde4/mintupload.desktop",
+    "path": "/usr/share/applications/kde4/mintupload.desktop"
+  },
+  {
+    "name": "Welcome Screen",
+    "description": "Introduction to Linux Mint",
+    "exec": "mintwelcome",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintwelcome.svg",
+    "filename": "mintwelcome.desktop",
+    "id": "kde4/mintwelcome.desktop",
+    "path": "/usr/share/applications/kde4/mintwelcome.desktop"
+  },
+  {
+    "name": "LibreOffice Base",
+    "description": "Manage databases, create queries and reports to track and manage your information by using Base.",
+    "exec": "libreoffice --base %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/libreoffice-base.svg",
+    "filename": "libreoffice-base.desktop",
+    "id": "libreoffice-base.desktop",
+    "path": "/usr/share/applications/libreoffice-base.desktop"
+  },
+  {
+    "name": "LibreOffice Calc",
+    "description": "Perform calculations, analyze information and manage lists in spreadsheets by using Calc.",
+    "exec": "libreoffice --calc %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/libreoffice-calc.svg",
+    "filename": "libreoffice-calc.desktop",
+    "id": "libreoffice-calc.desktop",
+    "path": "/usr/share/applications/libreoffice-calc.desktop"
+  },
+  {
+    "name": "LibreOffice Draw",
+    "description": "Create and edit drawings, flow charts and logos by using Draw.",
+    "exec": "libreoffice --draw %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/libreoffice-draw.svg",
+    "filename": "libreoffice-draw.desktop",
+    "id": "libreoffice-draw.desktop",
+    "path": "/usr/share/applications/libreoffice-draw.desktop"
+  },
+  {
+    "name": "LibreOffice Impress",
+    "description": "Create and edit presentations for slideshows, meeting and Web pages by using Impress.",
+    "exec": "libreoffice --impress %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/libreoffice-impress.svg",
+    "filename": "libreoffice-impress.desktop",
+    "id": "libreoffice-impress.desktop",
+    "path": "/usr/share/applications/libreoffice-impress.desktop"
+  },
+  {
+    "name": "LibreOffice Writer",
+    "description": "Create and edit text and graphics in letters, reports, documents and Web pages by using Writer.",
+    "exec": "libreoffice --writer %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/libreoffice-writer.svg",
+    "filename": "libreoffice-writer.desktop",
+    "id": "libreoffice-writer.desktop",
+    "path": "/usr/share/applications/libreoffice-writer.desktop"
+  },
+  {
+    "name": "Login Window",
+    "description": "Configure the login window",
+    "exec": "lightdm-settings",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/lightdm-settings.svg",
+    "filename": "lightdm-settings.desktop",
+    "id": "lightdm-settings.desktop",
+    "path": "/usr/share/applications/lightdm-settings.desktop"
+  },
+  {
+    "name": "Customize Look and Feel",
+    "description": "Customizes look and feel of your desktop and applications",
+    "exec": "lxappearance",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/preferences-desktop-theme.svg",
+    "filename": "lxappearance.desktop",
+    "id": "lxappearance.desktop",
+    "path": "/usr/share/applications/lxappearance.desktop"
+  },
+  {
+    "name": "Color selection dialog",
+    "description": "Choose colors from the palette or the screen",
+    "exec": "mate-color-select",
+    "hidden": false,
+    "filename": "mate-color-select.desktop",
+    "id": "mate-color-select.desktop",
+    "path": "/usr/share/applications/mate-color-select.desktop"
+  },
+  {
+    "name": "Min",
+    "description": "Min is a faster, smarter web browser.",
+    "exec": "min %U",
+    "hidden": false,
+    "icon": "/usr/share/pixmaps/min.png",
+    "filename": "min.desktop",
+    "id": "min.desktop",
+    "path": "/usr/share/applications/min.desktop"
+  },
+  {
+    "name": "Help",
+    "description": "Launch help browser",
+    "exec": "yelp %u",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/help-browser.svg",
+    "filename": "mint-user-guide.desktop",
+    "id": "mint-user-guide.desktop",
+    "path": "/usr/share/applications/mint-user-guide.desktop"
+  },
+  {
+    "name": "Backup Tool",
+    "description": "Make a backup of your home directory",
+    "exec": "mintbackup",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintbackup.svg",
+    "filename": "mintbackup.desktop",
+    "id": "mintbackup.desktop",
+    "path": "/usr/share/applications/mintbackup.desktop"
+  },
+  {
+    "name": "Driver Manager",
+    "description": "Manage the drivers for your devices",
+    "exec": "driver-manager",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintdrivers.svg",
+    "filename": "mintdrivers.desktop",
+    "id": "mintdrivers.desktop",
+    "path": "/usr/share/applications/mintdrivers.desktop"
+  },
+  {
+    "name": "Software Manager",
+    "description": "Install new applications",
+    "exec": "kdesudo -i /usr/share/icons/hicolors/48x48/apps/software-properties-mint.png -d --comment \"<b>Please enter your password to start the software manager</b>\" mintinstall",
+    "hidden": false,
+    "filename": "mintinstall-kde.desktop",
+    "id": "mintinstall-kde.desktop",
+    "path": "/usr/share/applications/mintinstall-kde.desktop"
+  },
+  {
+    "name": "Software Manager",
+    "description": "Install new applications",
+    "exec": "gksu mintinstall",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintinstall.svg",
+    "filename": "mintinstall.desktop",
+    "id": "mintinstall.desktop",
+    "path": "/usr/share/applications/mintinstall.desktop"
+  },
+  {
+    "name": "Input method",
+    "description": "Language settings",
+    "exec": "mintlocale im",
+    "hidden": false,
+    "filename": "mintlocale-im.desktop",
+    "id": "mintlocale-im.desktop",
+    "path": "/usr/share/applications/mintlocale-im.desktop"
+  },
+  {
+    "name": "Languages",
+    "description": "Language settings",
+    "exec": "mintlocale",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/preferences-desktop-locale.svg",
+    "filename": "mintlocale.desktop",
+    "id": "mintlocale.desktop",
+    "path": "/usr/share/applications/mintlocale.desktop"
+  },
+  {
+    "name": "Domain Blocker",
+    "description": "Block access to selected domain names",
+    "exec": "mintnanny",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintnanny.svg",
+    "filename": "mintNanny.desktop",
+    "id": "mintNanny.desktop",
+    "path": "/usr/share/applications/mintNanny.desktop"
+  },
+  {
+    "name": "Software Sources",
+    "description": "Configure the sources for installable software and updates",
+    "exec": "software-sources",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintsources.svg",
+    "filename": "mintsources.desktop",
+    "id": "mintsources.desktop",
+    "path": "/usr/share/applications/mintsources.desktop"
+  },
+  {
+    "name": "USB Stick Formatter",
+    "description": "Format a USB stick",
+    "exec": "mintstick -m format",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/system-run.svg",
+    "filename": "mintstick-format-kde.desktop",
+    "id": "mintstick-format-kde.desktop",
+    "path": "/usr/share/applications/mintstick-format-kde.desktop"
+  },
+  {
+    "name": "USB Stick Formatter",
+    "description": "Format a USB stick",
+    "exec": "mintstick -m format",
+    "hidden": false,
+    "filename": "mintstick-format.desktop",
+    "id": "mintstick-format.desktop",
+    "path": "/usr/share/applications/mintstick-format.desktop"
+  },
+  {
+    "name": "USB Image Writer",
+    "description": "Make a bootable USB stick",
+    "exec": "mintstick -m iso",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/system-run.svg",
+    "filename": "mintstick-kde.desktop",
+    "id": "mintstick-kde.desktop",
+    "path": "/usr/share/applications/mintstick-kde.desktop"
+  },
+  {
+    "name": "USB Image Writer",
+    "description": "Make a bootable USB stick",
+    "exec": "mintstick -m iso",
+    "hidden": false,
+    "filename": "mintstick.desktop",
+    "id": "mintstick.desktop",
+    "path": "/usr/share/applications/mintstick.desktop"
+  },
+  {
+    "name": "Update Manager",
+    "description": "Show and install available updates",
+    "exec": "mintupdate",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/96x96/apps/mintupdate.svg",
+    "filename": "mintupdate-kde.desktop",
+    "id": "mintupdate-kde.desktop",
+    "path": "/usr/share/applications/mintupdate-kde.desktop"
+  },
+  {
+    "name": "Update Manager",
+    "description": "Show and install available updates",
+    "exec": "mintupdate",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/96x96/apps/mintupdate.svg",
+    "filename": "mintupdate.desktop",
+    "id": "mintupdate.desktop",
+    "path": "/usr/share/applications/mintupdate.desktop"
+  },
+  {
+    "name": "Upload Manager",
+    "description": "Define upload services",
+    "exec": "mintupload-manager",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintupload.svg",
+    "filename": "mintupload.desktop",
+    "id": "mintupload.desktop",
+    "path": "/usr/share/applications/mintupload.desktop"
+  },
+  {
+    "name": "Welcome Screen",
+    "description": "Introduction to Linux Mint",
+    "exec": "mintwelcome",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mintwelcome.svg",
+    "filename": "mintwelcome.desktop",
+    "id": "mintwelcome.desktop",
+    "path": "/usr/share/applications/mintwelcome.desktop"
+  },
+  {
+    "name": "Moeditor",
+    "description": "Your all-purpose markdown editor",
+    "exec": "moeditor %U",
+    "hidden": false,
+    "icon": "/usr/share/pixmaps/moeditor.svg",
+    "filename": "moeditor.desktop",
+    "id": "moeditor.desktop",
+    "path": "/usr/share/applications/moeditor.desktop"
+  },
+  {
+    "name": "Main Menu",
+    "description": "Change which applications are shown on the main menu",
+    "exec": "mozo",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/mozo.png",
+    "filename": "mozo.desktop",
+    "id": "mozo.desktop",
+    "path": "/usr/share/applications/mozo.desktop"
+  },
+  {
+    "name": "mpv Media Player",
+    "description": "Play movies and songs",
+    "exec": "/usr/bin/mpv --profile=pseudo-gui -- %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/mpv.svg",
+    "filename": "mpv.desktop",
+    "id": "mpv.desktop",
+    "path": "/usr/share/applications/mpv.desktop"
+  },
+  {
+    "name": "Files",
+    "description": "Access and organize files",
+    "exec": "nemo %U",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/folder.png",
+    "filename": "nemo.desktop",
+    "id": "nemo.desktop",
+    "path": "/usr/share/applications/nemo.desktop"
+  },
+  {
+    "name": "nitrogen",
+    "description": "Browse and set desktop backgrounds",
+    "exec": "nitrogen",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/128x128/apps/nitrogen.png",
+    "filename": "nitrogen.desktop",
+    "id": "nitrogen.desktop",
+    "path": "/usr/share/applications/nitrogen.desktop"
+  },
+  {
+    "name": "Network Connections",
+    "description": "Manage and change your network connection settings",
+    "exec": "nm-connection-editor",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/preferences-system-network.svg",
+    "filename": "nm-connection-editor.desktop",
+    "id": "nm-connection-editor.desktop",
+    "path": "/usr/share/applications/nm-connection-editor.desktop"
+  },
+  {
+    "name": "NVIDIA X Server Settings",
+    "description": "Configure NVIDIA X Server Settings",
+    "exec": "/usr/bin/nvidia-settings",
+    "hidden": false,
+    "icon": "/usr/share/pixmaps/nvidia-settings.png",
+    "filename": "nvidia-settings.desktop",
+    "id": "nvidia-settings.desktop",
+    "path": "/usr/share/applications/nvidia-settings.desktop"
+  },
+  {
+    "name": "Onscreen keyboard",
+    "description": "Onboard onscreen keyboard",
+    "exec": "onboard",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/onboard.svg",
+    "filename": "onboard.desktop",
+    "id": "onboard.desktop",
+    "path": "/usr/share/applications/onboard.desktop"
+  },
+  {
+    "name": "Screen Reader",
+    "description": "Provide access to graphical desktop environments via synthesized speech and/or refreshable braille",
+    "exec": "orca --replace",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/orca.svg",
+    "filename": "orca.desktop",
+    "id": "orca.desktop",
+    "path": "/usr/share/applications/orca.desktop"
+  },
+  {
+    "name": "Disk Usage Analyzer",
+    "description": "Check folder sizes and available disk space",
+    "exec": "baobab",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/baobab.png",
+    "filename": "org.gnome.baobab.desktop",
+    "id": "org.gnome.baobab.desktop",
+    "path": "/usr/share/applications/org.gnome.baobab.desktop"
+  },
+  {
+    "name": "Disks",
+    "description": "Manage Drives and Media",
+    "exec": "gnome-disks",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/gnome-disks.png",
+    "filename": "org.gnome.DiskUtility.desktop",
+    "id": "org.gnome.DiskUtility.desktop",
+    "path": "/usr/share/applications/org.gnome.DiskUtility.desktop"
+  },
+  {
+    "name": "Font Viewer",
+    "description": "View fonts on your system",
+    "exec": "gnome-font-viewer %u",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/preferences-desktop-font.svg",
+    "filename": "org.gnome.font-viewer.desktop",
+    "id": "org.gnome.font-viewer.desktop",
+    "path": "/usr/share/applications/org.gnome.font-viewer.desktop"
+  },
+  {
+    "name": "Screenshot",
+    "description": "Save images of your screen or individual windows",
+    "exec": "gnome-screenshot --interactive",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/applets-screenshooter.svg",
+    "filename": "org.gnome.Screenshot.desktop",
+    "id": "org.gnome.Screenshot.desktop",
+    "path": "/usr/share/applications/org.gnome.Screenshot.desktop"
+  },
+  {
+    "name": "Pidgin Internet Messenger",
+    "description": "Chat over IM.  Supports AIM, Google Talk, Jabber/XMPP, MSN, Yahoo and more",
+    "exec": "pidgin",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/pidgin.svg",
+    "filename": "pidgin.desktop",
+    "id": "pidgin.desktop",
+    "path": "/usr/share/applications/pidgin.desktop"
+  },
+  {
+    "name": "Pix",
+    "description": "View and organize your images",
+    "exec": "pix %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/pix.svg",
+    "filename": "pix.desktop",
+    "id": "pix.desktop",
+    "path": "/usr/share/applications/pix.desktop"
+  },
+  {
+    "name": "Rhythmbox",
+    "description": "Play and organize your music collection",
+    "exec": "rhythmbox %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/rhythmbox.png",
+    "filename": "rhythmbox.desktop",
+    "id": "rhythmbox.desktop",
+    "path": "/usr/share/applications/rhythmbox.desktop"
+  },
+  {
+    "name": "Abstractile",
+    "description": "Generates mosaic patterns of interlocking tiles. Written by Steve Sundstrom.",
+    "exec": "/usr/lib/xscreensaver/abstractile -root",
+    "hidden": false,
+    "filename": "abstractile.desktop",
+    "id": "screensavers/abstractile.desktop",
+    "path": "/usr/share/applications/screensavers/abstractile.desktop"
+  },
+  {
+    "name": "Anemone",
+    "description": "Wiggling tentacles. Written by Gabriel Finch.",
+    "exec": "/usr/lib/xscreensaver/anemone -root",
+    "hidden": false,
+    "filename": "anemone.desktop",
+    "id": "screensavers/anemone.desktop",
+    "path": "/usr/share/applications/screensavers/anemone.desktop"
+  },
+  {
+    "name": "Anemotaxis",
+    "description": "Anemotaxis demonstrates a search algorithm designed for locating a source of odor in turbulent atmosphere. The searcher is able to sense the odor and determine local instantaneous wind direction. The goal is to find the source in the shortest mean time. http://en.wikipedia.org/wiki/Anemotaxis Written by Eugene Balkovsky.",
+    "exec": "/usr/lib/xscreensaver/anemotaxis -root",
+    "hidden": false,
+    "filename": "anemotaxis.desktop",
+    "id": "screensavers/anemotaxis.desktop",
+    "path": "/usr/share/applications/screensavers/anemotaxis.desktop"
+  },
+  {
+    "name": "AntInspect",
+    "description": "Draws a trio of ants moving their spheres around a circle. Written by Blair Tennessy.",
+    "exec": "/usr/lib/xscreensaver/antinspect -root",
+    "hidden": false,
+    "filename": "antinspect.desktop",
+    "id": "screensavers/antinspect.desktop",
+    "path": "/usr/share/applications/screensavers/antinspect.desktop"
+  },
+  {
+    "name": "AntMaze",
+    "description": "Draws a few views of a few ants walking around in a simple maze. Written by Blair Tennessy.",
+    "exec": "/usr/lib/xscreensaver/antmaze -root",
+    "hidden": false,
+    "filename": "antmaze.desktop",
+    "id": "screensavers/antmaze.desktop",
+    "path": "/usr/share/applications/screensavers/antmaze.desktop"
+  },
+  {
+    "name": "AntSpotlight",
+    "description": "Draws an ant (with a headlight) who walks on top of an image of your desktop or other image. Written by Blair Tennessy.",
+    "exec": "/usr/lib/xscreensaver/antspotlight -root",
+    "hidden": false,
+    "filename": "antspotlight.desktop",
+    "id": "screensavers/antspotlight.desktop",
+    "path": "/usr/share/applications/screensavers/antspotlight.desktop"
+  },
+  {
+    "name": "Apollonian",
+    "description": "Draws an Apollonian gasket: a fractal packing of circles with smaller circles, demonstrating Descartes's theorem. http://en.wikipedia.org/wiki/Apollonian_gasket http://en.wikipedia.org/wiki/Descartes%27_theorem Written by Allan R. Wilks and David Bagley.",
+    "exec": "/usr/lib/xscreensaver/apollonian -root",
+    "hidden": false,
+    "filename": "apollonian.desktop",
+    "id": "screensavers/apollonian.desktop",
+    "path": "/usr/share/applications/screensavers/apollonian.desktop"
+  },
+  {
+    "name": "Apple2",
+    "description": "Simulates an original Apple ][ Plus computer in all its 1979 glory. It also reproduces the appearance of display on a color television set of the period. In \"Basic Programming Mode\", a simulated user types in a BASIC program and runs it. In \"Text Mode\", it displays the output of a program, or the contents of a file or URL. In \"Slideshow Mode\", it chooses random images and displays them within the limitations of the Apple ][ display hardware. (Six available colors in hi-res mode!) On X11 systems, This program is also a fully-functional VT100 emulator. http://en.wikipedia.org/wiki/Apple_II_series Written by Trevor Blackwell.",
+    "exec": "/usr/lib/xscreensaver/apple2 -root",
+    "hidden": false,
+    "filename": "apple2.desktop",
+    "id": "screensavers/apple2.desktop",
+    "path": "/usr/share/applications/screensavers/apple2.desktop"
+  },
+  {
+    "name": "Atlantis",
+    "description": "A 3D animation of a number of sharks, dolphins, and whales. Written by Mark Kilgard.",
+    "exec": "/usr/lib/xscreensaver/atlantis -root",
+    "hidden": false,
+    "filename": "atlantis.desktop",
+    "id": "screensavers/atlantis.desktop",
+    "path": "/usr/share/applications/screensavers/atlantis.desktop"
+  },
+  {
+    "name": "Attraction",
+    "description": "Uses a simple simple motion model to generate many different display modes. The control points attract each other up to a certain distance, and then begin to repel each other. The attraction/repulsion is proportional to the distance between any two particles, similar to the strong and weak nuclear forces. Written by Jamie Zawinski and John Pezaris.",
+    "exec": "/usr/lib/xscreensaver/attraction -root",
+    "hidden": false,
+    "filename": "attraction.desktop",
+    "id": "screensavers/attraction.desktop",
+    "path": "/usr/share/applications/screensavers/attraction.desktop"
+  },
+  {
+    "name": "Atunnel",
+    "description": "Draws an animation of a textured tunnel in GL. Written by Eric Lassauge and Roman Podobedov.",
+    "exec": "/usr/lib/xscreensaver/atunnel -root",
+    "hidden": false,
+    "filename": "atunnel.desktop",
+    "id": "screensavers/atunnel.desktop",
+    "path": "/usr/share/applications/screensavers/atunnel.desktop"
+  },
+  {
+    "name": "Barcode",
+    "description": "Draws a random sequence of colorful barcodes scrolling across your screen. CONSUME! The barcodes follow the UPC-A, UPC-E, EAN-8 or EAN-13 standards. http://en.wikipedia.org/wiki/Universal_Product_Code http://en.wikipedia.org/wiki/European_Article_Number Written by Dan Bornstein.",
+    "exec": "/usr/lib/xscreensaver/barcode -root",
+    "hidden": false,
+    "filename": "barcode.desktop",
+    "id": "screensavers/barcode.desktop",
+    "path": "/usr/share/applications/screensavers/barcode.desktop"
+  },
+  {
+    "name": "BinaryRing",
+    "description": "A system of path tracing particles evolves continuously from an initial creation, alternating dark and light colors. Written by J. Tarbell and Emilio Del Tessandoro.",
+    "exec": "/usr/lib/xscreensaver/binaryring -root",
+    "hidden": false,
+    "filename": "binaryring.desktop",
+    "id": "screensavers/binaryring.desktop",
+    "path": "/usr/share/applications/screensavers/binaryring.desktop"
+  },
+  {
+    "name": "Blaster",
+    "description": "Draws a simulation of flying space-combat robots (cleverly disguised as colored circles) doing battle in front of a moving star field. Written by Jonathan Lin.",
+    "exec": "/usr/lib/xscreensaver/blaster -root",
+    "hidden": false,
+    "filename": "blaster.desktop",
+    "id": "screensavers/blaster.desktop",
+    "path": "/usr/share/applications/screensavers/blaster.desktop"
+  },
+  {
+    "name": "BlinkBox",
+    "description": "Shows a ball contained inside of a bounding box. Colored blocks blink in when the ball hits the sides. Written by Jeremy English.",
+    "exec": "/usr/lib/xscreensaver/blinkbox -root",
+    "hidden": false,
+    "filename": "blinkbox.desktop",
+    "id": "screensavers/blinkbox.desktop",
+    "path": "/usr/share/applications/screensavers/blinkbox.desktop"
+  },
+  {
+    "name": "BlitSpin",
+    "description": "Repeatedly rotates a bitmap by 90 degrees by using logical operations: the bitmap is divided into quadrants, and the quadrants are shifted clockwise. Then the same thing is done again with progressively smaller quadrants, except that all sub-quadrants of a given size are rotated in parallel. As you watch it, the image appears to dissolve into static and then reconstitute itself, but rotated. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/blitspin -root",
+    "hidden": false,
+    "filename": "blitspin.desktop",
+    "id": "screensavers/blitspin.desktop",
+    "path": "/usr/share/applications/screensavers/blitspin.desktop"
+  },
+  {
+    "name": "BlockTube",
+    "description": "Draws a swirling, falling tunnel of reflective slabs. They fade from hue to hue. Written by Lars R. Damerow.",
+    "exec": "/usr/lib/xscreensaver/blocktube -root",
+    "hidden": false,
+    "filename": "blocktube.desktop",
+    "id": "screensavers/blocktube.desktop",
+    "path": "/usr/share/applications/screensavers/blocktube.desktop"
+  },
+  {
+    "name": "Boing",
+    "description": "This bouncing ball is a clone of the first graphics demo for the Amiga 1000, which was written by Dale Luck and RJ Mical during a break at the 1984 Consumer Electronics Show (or so the legend goes.) This looks like the original Amiga demo if you turn off \"smoothing\" and \"lighting\" and turn on \"scanlines\", and is somewhat more modern otherwise. http://en.wikipedia.org/wiki/Amiga#Boing_Ball Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/boing -root",
+    "hidden": false,
+    "filename": "boing.desktop",
+    "id": "screensavers/boing.desktop",
+    "path": "/usr/share/applications/screensavers/boing.desktop"
+  },
+  {
+    "name": "Bouboule",
+    "description": "This draws what looks like a spinning, deforming balloon with varying-sized spots painted on its invisible surface. Written by Jeremie Petit.",
+    "exec": "/usr/lib/xscreensaver/bouboule -root",
+    "hidden": false,
+    "filename": "bouboule.desktop",
+    "id": "screensavers/bouboule.desktop",
+    "path": "/usr/share/applications/screensavers/bouboule.desktop"
+  },
+  {
+    "name": "BouncingCow",
+    "description": "A Cow. A Trampoline. Together, they fight crime. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/bouncingcow -root",
+    "hidden": false,
+    "filename": "bouncingcow.desktop",
+    "id": "screensavers/bouncingcow.desktop",
+    "path": "/usr/share/applications/screensavers/bouncingcow.desktop"
+  },
+  {
+    "name": "Boxed",
+    "description": "Draws a box full of 3D bouncing balls that explode. Written by Sander van Grieken.",
+    "exec": "/usr/lib/xscreensaver/boxed -root",
+    "hidden": false,
+    "filename": "boxed.desktop",
+    "id": "screensavers/boxed.desktop",
+    "path": "/usr/share/applications/screensavers/boxed.desktop"
+  },
+  {
+    "name": "BoxFit",
+    "description": "Packs the screen with growing squares or circles, colored according to a horizontal or vertical gradient, or according to the colors of the desktop or a loaded image file. The objects grow until they touch, then stop. When the screen is full, they shrink away and the process restarts. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/boxfit -root",
+    "hidden": false,
+    "filename": "boxfit.desktop",
+    "id": "screensavers/boxfit.desktop",
+    "path": "/usr/share/applications/screensavers/boxfit.desktop"
+  },
+  {
+    "name": "Braid",
+    "description": "Draws random color-cycling inter-braided concentric circles. Written by John Neil.",
+    "exec": "/usr/lib/xscreensaver/braid -root",
+    "hidden": false,
+    "filename": "braid.desktop",
+    "id": "screensavers/braid.desktop",
+    "path": "/usr/share/applications/screensavers/braid.desktop"
+  },
+  {
+    "name": "Bubble3D",
+    "description": "Draws a stream of rising, undulating 3D bubbles, rising toward the top of the screen, with transparency and specular reflections. Written by Richard Jones.",
+    "exec": "/usr/lib/xscreensaver/bubble3d -root",
+    "hidden": false,
+    "filename": "bubble3d.desktop",
+    "id": "screensavers/bubble3d.desktop",
+    "path": "/usr/share/applications/screensavers/bubble3d.desktop"
+  },
+  {
+    "name": "Bumps",
+    "description": "A spotlight roams across an embossed version of your desktop or other picture. Written by Shane Smit.",
+    "exec": "/usr/lib/xscreensaver/bumps -root",
+    "hidden": false,
+    "filename": "bumps.desktop",
+    "id": "screensavers/bumps.desktop",
+    "path": "/usr/share/applications/screensavers/bumps.desktop"
+  },
+  {
+    "name": "Cage",
+    "description": "This draws Escher's \"Impossible Cage\", a 3d analog of a moebius strip, and rotates it in three dimensions. http://en.wikipedia.org/wiki/Maurits_Cornelis_Escher Written by Marcelo Vianna.",
+    "exec": "/usr/lib/xscreensaver/cage -root",
+    "hidden": false,
+    "filename": "cage.desktop",
+    "id": "screensavers/cage.desktop",
+    "path": "/usr/share/applications/screensavers/cage.desktop"
+  },
+  {
+    "name": "Carousel",
+    "description": "Loads several random images, and displays them flying in a circular formation. The formation changes speed and direction randomly, and images periodically drop out to be replaced by new ones. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/carousel -root",
+    "hidden": false,
+    "filename": "carousel.desktop",
+    "id": "screensavers/carousel.desktop",
+    "path": "/usr/share/applications/screensavers/carousel.desktop"
+  },
+  {
+    "name": "CCurve",
+    "description": "Generates self-similar linear fractals, including the classic \"C Curve\". http://en.wikipedia.org/wiki/Levy_C_curve Written by Rick Campbell.",
+    "exec": "/usr/lib/xscreensaver/ccurve -root",
+    "hidden": false,
+    "filename": "ccurve.desktop",
+    "id": "screensavers/ccurve.desktop",
+    "path": "/usr/share/applications/screensavers/ccurve.desktop"
+  },
+  {
+    "name": "Celtic",
+    "description": "Repeatedly draws random Celtic cross-stitch patterns. http://en.wikipedia.org/wiki/Celtic_knot Written by Max Froumentin.",
+    "exec": "/usr/lib/xscreensaver/celtic -root",
+    "hidden": false,
+    "filename": "celtic.desktop",
+    "id": "screensavers/celtic.desktop",
+    "path": "/usr/share/applications/screensavers/celtic.desktop"
+  },
+  {
+    "name": "Circuit",
+    "description": "Animates a number of 3D electronic components. Written by Ben Buxton.",
+    "exec": "/usr/lib/xscreensaver/circuit -root",
+    "hidden": false,
+    "filename": "circuit.desktop",
+    "id": "screensavers/circuit.desktop",
+    "path": "/usr/share/applications/screensavers/circuit.desktop"
+  },
+  {
+    "name": "Cityflow",
+    "description": "Waves move across a sea of boxes. The city swells. The walls are closing in. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/cityflow -root",
+    "hidden": false,
+    "filename": "cityflow.desktop",
+    "id": "screensavers/cityflow.desktop",
+    "path": "/usr/share/applications/screensavers/cityflow.desktop"
+  },
+  {
+    "name": "CloudLife",
+    "description": "Generates cloud-like formations based on a variant of Conway's Life. The difference is that cells have a maximum age, after which they count as 3 for populating the next generation. This makes long-lived formations explode instead of just sitting there. http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life Written by Don Marti.",
+    "exec": "/usr/lib/xscreensaver/cloudlife -root",
+    "hidden": false,
+    "filename": "cloudlife.desktop",
+    "id": "screensavers/cloudlife.desktop",
+    "path": "/usr/share/applications/screensavers/cloudlife.desktop"
+  },
+  {
+    "name": "CompanionCube",
+    "description": "The symptoms most commonly produced by Enrichment Center testing are superstition, perceiving inanimate objects as alive, and hallucinations. The Enrichment Center reminds you that the weighted companion cube will never threaten to stab you and, in fact, cannot speak. In the event that the Weighted Companion Cube does speak, the Enrichment Center urges you to disregard its advice. http://en.wikipedia.org/wiki/Portal_%28video_game%29 Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/companioncube -root",
+    "hidden": false,
+    "filename": "companioncube.desktop",
+    "id": "screensavers/companioncube.desktop",
+    "path": "/usr/share/applications/screensavers/companioncube.desktop"
+  },
+  {
+    "name": "Compass",
+    "description": "This draws a compass, with all elements spinning about randomly, for that \"lost and nauseous\" feeling. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/compass -root",
+    "hidden": false,
+    "filename": "compass.desktop",
+    "id": "screensavers/compass.desktop",
+    "path": "/usr/share/applications/screensavers/compass.desktop"
+  },
+  {
+    "name": "Coral",
+    "description": "Simulates coral growth, albeit somewhat slowly. Written by Frederick Roeber.",
+    "exec": "/usr/lib/xscreensaver/coral -root",
+    "hidden": false,
+    "filename": "coral.desktop",
+    "id": "screensavers/coral.desktop",
+    "path": "/usr/share/applications/screensavers/coral.desktop"
+  },
+  {
+    "name": "Crackberg",
+    "description": "Flies through height maps, optionally animating the creation and destruction of generated tiles; tiles `grow' into place. Written by Matus Telgarsky.",
+    "exec": "/usr/lib/xscreensaver/crackberg -root",
+    "hidden": false,
+    "filename": "crackberg.desktop",
+    "id": "screensavers/crackberg.desktop",
+    "path": "/usr/share/applications/screensavers/crackberg.desktop"
+  },
+  {
+    "name": "Crystal",
+    "description": "Moving polygons, similar to a kaleidoscope. See also the \"Kaleidescope\" and \"GLeidescope\" screen savers. http://en.wikipedia.org/wiki/Kaleidoscope Written by Jouk Jansen.",
+    "exec": "/usr/lib/xscreensaver/crystal -root",
+    "hidden": false,
+    "filename": "crystal.desktop",
+    "id": "screensavers/crystal.desktop",
+    "path": "/usr/share/applications/screensavers/crystal.desktop"
+  },
+  {
+    "name": "Cube21",
+    "description": "Animates a Rubik-like puzzle known as Cube 21 or Square-1. The rotations are chosen randomly. See also the \"Rubik\" and \"GLSnake\" screen savers. http://en.wikipedia.org/wiki/Square_One_%28puzzle%29 Written by Vasek Potocek.",
+    "exec": "/usr/lib/xscreensaver/cube21 -root",
+    "hidden": false,
+    "filename": "cube21.desktop",
+    "id": "screensavers/cube21.desktop",
+    "path": "/usr/share/applications/screensavers/cube21.desktop"
+  },
+  {
+    "name": "Cubenetic",
+    "description": "Draws a pulsating set of overlapping boxes with ever-chaning blobby patterns undulating across their surfaces. It's sort of a cubist Lavalite. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/cubenetic -root",
+    "hidden": false,
+    "filename": "cubenetic.desktop",
+    "id": "screensavers/cubenetic.desktop",
+    "path": "/usr/share/applications/screensavers/cubenetic.desktop"
+  },
+  {
+    "name": "CubeStorm",
+    "description": "Draws a series of rotating 3D boxes that intersect each other and eventually fill space. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/cubestorm -root",
+    "hidden": false,
+    "filename": "cubestorm.desktop",
+    "id": "screensavers/cubestorm.desktop",
+    "path": "/usr/share/applications/screensavers/cubestorm.desktop"
+  },
+  {
+    "name": "CubicGrid",
+    "description": "Draws the view of an observer located inside a rotating 3D lattice of colored points. Written by Vasek Potocek.",
+    "exec": "/usr/lib/xscreensaver/cubicgrid -root",
+    "hidden": false,
+    "filename": "cubicgrid.desktop",
+    "id": "screensavers/cubicgrid.desktop",
+    "path": "/usr/share/applications/screensavers/cubicgrid.desktop"
+  },
+  {
+    "name": "CWaves",
+    "description": "This generates a languidly-scrolling vertical field of sinusoidal colors. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/cwaves -root",
+    "hidden": false,
+    "filename": "cwaves.desktop",
+    "id": "screensavers/cwaves.desktop",
+    "path": "/usr/share/applications/screensavers/cwaves.desktop"
+  },
+  {
+    "name": "Cynosure",
+    "description": "Random dropshadowed rectangles pop onto the screen in lockstep. Written by Ozymandias G. Desiderata, Jamie Zawinski, and Stephen Linhart.",
+    "exec": "/usr/lib/xscreensaver/cynosure -root",
+    "hidden": false,
+    "filename": "cynosure.desktop",
+    "id": "screensavers/cynosure.desktop",
+    "path": "/usr/share/applications/screensavers/cynosure.desktop"
+  },
+  {
+    "name": "DangerBall",
+    "description": "Draws a ball that periodically extrudes many random spikes. Ouch! Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/dangerball -root",
+    "hidden": false,
+    "filename": "dangerball.desktop",
+    "id": "screensavers/dangerball.desktop",
+    "path": "/usr/share/applications/screensavers/dangerball.desktop"
+  },
+  {
+    "name": "DecayScreen",
+    "description": "This takes an image and makes it melt. You've no doubt seen this effect before, but no screensaver would really be complete without it. It works best if there's something colorful visible. Warning, if the effect continues after the screen saver is off, seek medical attention. Written by David Wald, Vivek Khera, Jamie Zawinski, and Vince Levey.",
+    "exec": "/usr/lib/xscreensaver/decayscreen -root",
+    "hidden": false,
+    "filename": "decayscreen.desktop",
+    "id": "screensavers/decayscreen.desktop",
+    "path": "/usr/share/applications/screensavers/decayscreen.desktop"
+  },
+  {
+    "name": "Deco",
+    "description": "Subdivides and colors rectangles randomly. It looks kind of like Brady-Bunch-era rec-room wall paneling. http://en.wikipedia.org/wiki/Piet_Mondrian#Paris_1919.E2.80.931938 Written by Jamie Zawinski and Michael Bayne.",
+    "exec": "/usr/lib/xscreensaver/deco -root",
+    "hidden": false,
+    "filename": "deco.desktop",
+    "id": "screensavers/deco.desktop",
+    "path": "/usr/share/applications/screensavers/deco.desktop"
+  },
+  {
+    "name": "Deluxe",
+    "description": "Draws a pulsing sequence of transparent stars, circles, and lines. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/deluxe -root",
+    "hidden": false,
+    "filename": "deluxe.desktop",
+    "id": "screensavers/deluxe.desktop",
+    "path": "/usr/share/applications/screensavers/deluxe.desktop"
+  },
+  {
+    "name": "Demon",
+    "description": "A cellular automaton that starts with a random field, and organizes it into stripes and spirals. http://en.wikipedia.org/wiki/Maxwell%27s_demon Written by David Bagley.",
+    "exec": "/usr/lib/xscreensaver/demon -root",
+    "hidden": false,
+    "filename": "demon.desktop",
+    "id": "screensavers/demon.desktop",
+    "path": "/usr/share/applications/screensavers/demon.desktop"
+  },
+  {
+    "name": "Discrete",
+    "description": "More \"discrete map\" systems, including new variants of Hopalong and Julia, and a few others. Written by Tim Auckland.",
+    "exec": "/usr/lib/xscreensaver/discrete -root",
+    "hidden": false,
+    "filename": "discrete.desktop",
+    "id": "screensavers/discrete.desktop",
+    "path": "/usr/share/applications/screensavers/discrete.desktop"
+  },
+  {
+    "name": "Distort",
+    "description": "Grabs an image of the screen, and then lets a transparent lens wander around the screen, magnifying whatever is underneath. Written by Jonas Munsin.",
+    "exec": "/usr/lib/xscreensaver/distort -root",
+    "hidden": false,
+    "filename": "distort.desktop",
+    "id": "screensavers/distort.desktop",
+    "path": "/usr/share/applications/screensavers/distort.desktop"
+  },
+  {
+    "name": "Drift",
+    "description": "Drifting recursive fractal cosmic flames. Written by Scott Draves.",
+    "exec": "/usr/lib/xscreensaver/drift -root",
+    "hidden": false,
+    "filename": "drift.desktop",
+    "id": "screensavers/drift.desktop",
+    "path": "/usr/share/applications/screensavers/drift.desktop"
+  },
+  {
+    "name": "Endgame",
+    "description": "Black slips out of three mating nets, but the fourth one holds him tight! A brilliant composition! See also the \"Queens\" screen saver. http://en.wikipedia.org/wiki/Chess_endgame Written by Blair Tennessy.",
+    "exec": "/usr/lib/xscreensaver/endgame -root",
+    "hidden": false,
+    "filename": "endgame.desktop",
+    "id": "screensavers/endgame.desktop",
+    "path": "/usr/share/applications/screensavers/endgame.desktop"
+  },
+  {
+    "name": "Engine",
+    "description": "Draws a simple model of an engine that floats around the screen. http://en.wikipedia.org/wiki/Internal_combustion_engine#Operation Written by Ben Buxton and Ed Beroset.",
+    "exec": "/usr/lib/xscreensaver/engine -root",
+    "hidden": false,
+    "filename": "engine.desktop",
+    "id": "screensavers/engine.desktop",
+    "path": "/usr/share/applications/screensavers/engine.desktop"
+  },
+  {
+    "name": "Epicycle",
+    "description": "This draws the path traced out by a point on the edge of a circle. That circle rotates around a point on the rim of another circle, and so on, several times. These were the basis for the pre-heliocentric model of planetary motion. http://en.wikipedia.org/wiki/Deferent_and_epicycle Written by James Youngman.",
+    "exec": "/usr/lib/xscreensaver/epicycle -root",
+    "hidden": false,
+    "filename": "epicycle.desktop",
+    "id": "screensavers/epicycle.desktop",
+    "path": "/usr/share/applications/screensavers/epicycle.desktop"
+  },
+  {
+    "name": "Eruption",
+    "description": "Exploding fireworks. See also the \"Fireworkx\", \"XFlame\" and \"Pyro\" screen savers. Written by W.P. van Paassen.",
+    "exec": "/usr/lib/xscreensaver/eruption -root",
+    "hidden": false,
+    "filename": "eruption.desktop",
+    "id": "screensavers/eruption.desktop",
+    "path": "/usr/share/applications/screensavers/eruption.desktop"
+  },
+  {
+    "name": "Euler2D",
+    "description": "Simulates two dimensional incompressible inviscid fluid flow. http://en.wikipedia.org/wiki/Euler_equations_%28fluid_dynamics%29 http://en.wikipedia.org/wiki/Inviscid_flow Written by Stephen Montgomery-Smith.",
+    "exec": "/usr/lib/xscreensaver/euler2d -root",
+    "hidden": false,
+    "filename": "euler2d.desktop",
+    "id": "screensavers/euler2d.desktop",
+    "path": "/usr/share/applications/screensavers/euler2d.desktop"
+  },
+  {
+    "name": "Extrusion",
+    "description": "Draws various rotating extruded shapes that twist around, lengthen, and turn inside out. Written by Linas Vepstas, David Konerding, and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/extrusion -root",
+    "hidden": false,
+    "filename": "extrusion.desktop",
+    "id": "screensavers/extrusion.desktop",
+    "path": "/usr/share/applications/screensavers/extrusion.desktop"
+  },
+  {
+    "name": "FadePlot",
+    "description": "Draws what looks like a waving ribbon following a sinusoidal path. Written by Bas van Gaalen and Charles Vidal.",
+    "exec": "/usr/lib/xscreensaver/fadeplot -root",
+    "hidden": false,
+    "filename": "fadeplot.desktop",
+    "id": "screensavers/fadeplot.desktop",
+    "path": "/usr/share/applications/screensavers/fadeplot.desktop"
+  },
+  {
+    "name": "Fiberlamp",
+    "description": "Draws a groovy rotating fiber optic lamp. Written by Tim Auckland.",
+    "exec": "/usr/lib/xscreensaver/fiberlamp -root",
+    "hidden": false,
+    "filename": "fiberlamp.desktop",
+    "id": "screensavers/fiberlamp.desktop",
+    "path": "/usr/share/applications/screensavers/fiberlamp.desktop"
+  },
+  {
+    "name": "Fireworkx",
+    "description": "Exploding fireworks. See also the \"Eruption\", \"XFlame\" and \"Pyro\" screen savers. Written by Rony B Chandran.",
+    "exec": "/usr/lib/xscreensaver/fireworkx -root",
+    "hidden": false,
+    "filename": "fireworkx.desktop",
+    "id": "screensavers/fireworkx.desktop",
+    "path": "/usr/share/applications/screensavers/fireworkx.desktop"
+  },
+  {
+    "name": "Flame",
+    "description": "Iterative fractals. Written by Scott Draves.",
+    "exec": "/usr/lib/xscreensaver/flame -root",
+    "hidden": false,
+    "filename": "flame.desktop",
+    "id": "screensavers/flame.desktop",
+    "path": "/usr/share/applications/screensavers/flame.desktop"
+  },
+  {
+    "name": "FlipFlop",
+    "description": "Draws a grid of 3D colored tiles that change positions with each other. Written by Kevin Ogden and Sergio Gutierrez.",
+    "exec": "/usr/lib/xscreensaver/flipflop -root",
+    "hidden": false,
+    "filename": "flipflop.desktop",
+    "id": "screensavers/flipflop.desktop",
+    "path": "/usr/share/applications/screensavers/flipflop.desktop"
+  },
+  {
+    "name": "FlipScreen3D",
+    "description": "Grabs an image of the desktop, turns it into a GL texture map, and spins it around and deforms it in various ways. Written by Ben Buxton and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/flipscreen3d -root",
+    "hidden": false,
+    "filename": "flipscreen3d.desktop",
+    "id": "screensavers/flipscreen3d.desktop",
+    "path": "/usr/share/applications/screensavers/flipscreen3d.desktop"
+  },
+  {
+    "name": "FlipText",
+    "description": "Draws successive pages of text. The lines flip in and out in a soothing 3D pattern. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/fliptext -root",
+    "hidden": false,
+    "filename": "fliptext.desktop",
+    "id": "screensavers/fliptext.desktop",
+    "path": "/usr/share/applications/screensavers/fliptext.desktop"
+  },
+  {
+    "name": "Flow",
+    "description": "Strange attractors formed of flows in a 3D differential equation phase space. Features the popular attractors described by Lorentz, Roessler, Birkhoff and Duffing, and can discover entirely new attractors by itself. http://en.wikipedia.org/wiki/Attractor#Strange_attractor Written by Tim Auckland.",
+    "exec": "/usr/lib/xscreensaver/flow -root",
+    "hidden": false,
+    "filename": "flow.desktop",
+    "id": "screensavers/flow.desktop",
+    "path": "/usr/share/applications/screensavers/flow.desktop"
+  },
+  {
+    "name": "FluidBalls",
+    "description": "Models the physics of bouncing balls, or of particles in a gas or fluid, depending on the settings. If \"Shake Box\" is selected, then every now and then, the box will be rotated, changing which direction is down (in order to keep the settled balls in motion.) Written by Peter Birtles and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/fluidballs -root",
+    "hidden": false,
+    "filename": "fluidballs.desktop",
+    "id": "screensavers/fluidballs.desktop",
+    "path": "/usr/share/applications/screensavers/fluidballs.desktop"
+  },
+  {
+    "name": "Flurry",
+    "description": "This X11 port of the OSX screensaver of the same name draws a colourful star(fish)like flurry of particles. Original Mac version: http://homepage.mac.com/calumr Written by Calum Robinson and Tobias Sargeant.",
+    "exec": "/usr/lib/xscreensaver/flurry -root",
+    "hidden": false,
+    "filename": "flurry.desktop",
+    "id": "screensavers/flurry.desktop",
+    "path": "/usr/share/applications/screensavers/flurry.desktop"
+  },
+  {
+    "name": "FlyingToasters",
+    "description": "A fleet of 3d space-age jet-powered flying toasters (and toast!) Inspired by the ancient Berkeley Systems After Dark flying toasters. http://en.wikipedia.org/wiki/After_Dark_%28software%29#Flying_Toasters Written by Jamie Zawinski and Devon Dossett.",
+    "exec": "/usr/lib/xscreensaver/flyingtoasters -root",
+    "hidden": false,
+    "filename": "flyingtoasters.desktop",
+    "id": "screensavers/flyingtoasters.desktop",
+    "path": "/usr/share/applications/screensavers/flyingtoasters.desktop"
+  },
+  {
+    "name": "FontGlide",
+    "description": "Puts text on the screen using large characters that glide in from the edges, assemble, then disperse. Alternately, it can simply scroll whole sentences from right to left. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/fontglide -root",
+    "hidden": false,
+    "filename": "fontglide.desktop",
+    "id": "screensavers/fontglide.desktop",
+    "path": "/usr/share/applications/screensavers/fontglide.desktop"
+  },
+  {
+    "name": "FuzzyFlakes",
+    "description": "Falling colored snowflake/flower shapes. Written by Barry Dmytro.",
+    "exec": "/usr/lib/xscreensaver/fuzzyflakes -root",
+    "hidden": false,
+    "filename": "fuzzyflakes.desktop",
+    "id": "screensavers/fuzzyflakes.desktop",
+    "path": "/usr/share/applications/screensavers/fuzzyflakes.desktop"
+  },
+  {
+    "name": "Galaxy",
+    "description": "This draws spinning galaxies, which then collide and scatter their stars to the, uh, four winds or something. Written by Uli Siegmund, Harald Backert, and Hubert Feyrer.",
+    "exec": "/usr/lib/xscreensaver/galaxy -root",
+    "hidden": false,
+    "filename": "galaxy.desktop",
+    "id": "screensavers/galaxy.desktop",
+    "path": "/usr/share/applications/screensavers/galaxy.desktop"
+  },
+  {
+    "name": "Gears",
+    "description": "This draws sets of turning, interlocking gears, rotating in three dimensions. See also the \"Pinion\" and \"MoebiusGears\" screen savers. http://en.wikipedia.org/wiki/Involute_gear http://en.wikipedia.org/wiki/Epicyclic_gearing Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/gears -root",
+    "hidden": false,
+    "filename": "gears.desktop",
+    "id": "screensavers/gears.desktop",
+    "path": "/usr/share/applications/screensavers/gears.desktop"
+  },
+  {
+    "name": "Geodesic",
+    "description": "Animates a mesh geodesic sphere of increasing and decreasing complexity. A geodesic sphere is an icosohedron whose equilateral faces are sub-divided into non-equilateral triangles to more closely approximate a sphere. The animation shows the equilateral triangles subdivided into four coplanar equilateral triangles; and then inflated outward, causing the sub-triangles to no longer be equilateral, but to more closely approximate the surface of a sphere. http://en.wikipedia.org/wiki/Geodesic_dome http://en.wikipedia.org/wiki/Buckminster_Fuller Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/geodesic -root",
+    "hidden": false,
+    "filename": "geodesic.desktop",
+    "id": "screensavers/geodesic.desktop",
+    "path": "/usr/share/applications/screensavers/geodesic.desktop"
+  },
+  {
+    "name": "GeodesicGears",
+    "description": "A set of meshed gears arranged on the surface of a sphere. http://en.wikipedia.org/wiki/Geodesic_dome http://en.wikipedia.org/wiki/Involute_gear Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/geodesicgears -root",
+    "hidden": false,
+    "filename": "geodesicgears.desktop",
+    "id": "screensavers/geodesicgears.desktop",
+    "path": "/usr/share/applications/screensavers/geodesicgears.desktop"
+  },
+  {
+    "name": "GFlux",
+    "description": "Draws a rippling waves on a rotating wireframe grid. Written by Josiah Pease.",
+    "exec": "/usr/lib/xscreensaver/gflux -root",
+    "hidden": false,
+    "filename": "gflux.desktop",
+    "id": "screensavers/gflux.desktop",
+    "path": "/usr/share/applications/screensavers/gflux.desktop"
+  },
+  {
+    "name": "GLBlur",
+    "description": "This draws a box and a few line segments, and generates a radial blur outward from it. This creates flowing field effects. This is done by rendering the scene into a small texture, then repeatedly rendering increasingly-enlarged and increasingly-transparent versions of that texture onto the frame buffer. As such, it's quite GPU-intensive: if you don't have a very good graphics card, it will hurt your machine bad. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/glblur -root",
+    "hidden": false,
+    "filename": "glblur.desktop",
+    "id": "screensavers/glblur.desktop",
+    "path": "/usr/share/applications/screensavers/glblur.desktop"
+  },
+  {
+    "name": "GLCells",
+    "description": "Cells growing, dividing and dying on your screen. Written by Matthias Toussaint.",
+    "exec": "/usr/lib/xscreensaver/glcells -root",
+    "hidden": false,
+    "filename": "glcells.desktop",
+    "id": "screensavers/glcells.desktop",
+    "path": "/usr/share/applications/screensavers/glcells.desktop"
+  },
+  {
+    "name": "Gleidescope",
+    "description": "A kaleidoscope that operates on your desktop image, or on image files loaded from disk. http://en.wikipedia.org/wiki/Kaleidoscope Written by Andrew Dean.",
+    "exec": "/usr/lib/xscreensaver/gleidescope -root",
+    "hidden": false,
+    "filename": "gleidescope.desktop",
+    "id": "screensavers/gleidescope.desktop",
+    "path": "/usr/share/applications/screensavers/gleidescope.desktop"
+  },
+  {
+    "name": "GLHanoi",
+    "description": "Solves the Towers of Hanoi puzzle. Move N disks from one pole to another, one disk at a time, with no disk ever resting on a disk smaller than itself. http://en.wikipedia.org/wiki/Tower_of_Hanoi Written by Dave Atkinson; 2005. \t",
+    "exec": "/usr/lib/xscreensaver/glhanoi -root",
+    "hidden": false,
+    "filename": "glhanoi.desktop",
+    "id": "screensavers/glhanoi.desktop",
+    "path": "/usr/share/applications/screensavers/glhanoi.desktop"
+  },
+  {
+    "name": "GLKnots",
+    "description": "Generates some twisting 3d knot patterns. Spins 'em around. http://en.wikipedia.org/wiki/Knot_theory Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/glknots -root",
+    "hidden": false,
+    "filename": "glknots.desktop",
+    "id": "screensavers/glknots.desktop",
+    "path": "/usr/share/applications/screensavers/glknots.desktop"
+  },
+  {
+    "name": "GLMatrix",
+    "description": "Draws 3D dropping characters similar to what is seen in the title sequence of \"The Matrix\". See also \"xmatrix\" for a 2D rendering of the similar effect that appeared on the computer monitors actually *in* the movie. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/glmatrix -root",
+    "hidden": false,
+    "filename": "glmatrix.desktop",
+    "id": "screensavers/glmatrix.desktop",
+    "path": "/usr/share/applications/screensavers/glmatrix.desktop"
+  },
+  {
+    "name": "GLPlanet",
+    "description": "Draws a planet bouncing around in space. The built-in image is a map of the earth (extracted from `xearth'), but you can wrap any texture around the sphere, e.g., the planetary textures that come with `ssystem'. Written by David Konerding.",
+    "exec": "/usr/lib/xscreensaver/glplanet -root",
+    "hidden": false,
+    "filename": "glplanet.desktop",
+    "id": "screensavers/glplanet.desktop",
+    "path": "/usr/share/applications/screensavers/glplanet.desktop"
+  },
+  {
+    "name": "GLSchool",
+    "description": "Uses Craig Reynolds' Boids algorithm to simulate a school of fish. http://en.wikipedia.org/wiki/Boids Written by David C. Lambert.",
+    "exec": "/usr/lib/xscreensaver/glschool -root",
+    "hidden": false,
+    "filename": "glschool.desktop",
+    "id": "screensavers/glschool.desktop",
+    "path": "/usr/share/applications/screensavers/glschool.desktop"
+  },
+  {
+    "name": "GLSlideshow",
+    "description": "Loads a random sequence of images and smoothly scans and zooms around in each, fading from pan to pan. Written by Jamie Zawinski and Mike Oliphant.",
+    "exec": "/usr/lib/xscreensaver/glslideshow -root",
+    "hidden": false,
+    "filename": "glslideshow.desktop",
+    "id": "screensavers/glslideshow.desktop",
+    "path": "/usr/share/applications/screensavers/glslideshow.desktop"
+  },
+  {
+    "name": "GLSnake",
+    "description": "Draws a simulation of the Rubik's Snake puzzle. See also the \"Rubik\" and \"Cube21\" screen savers. http://en.wikipedia.org/wiki/Rubik%27s_Snake Written by Jamie Wilkinson, Andrew Bennetts, and Peter Aylett.",
+    "exec": "/usr/lib/xscreensaver/glsnake -root",
+    "hidden": false,
+    "filename": "glsnake.desktop",
+    "id": "screensavers/glsnake.desktop",
+    "path": "/usr/share/applications/screensavers/glsnake.desktop"
+  },
+  {
+    "name": "GLText",
+    "description": "Displays a few lines of text spinning around in a solid 3D font. The text can use strftime() escape codes to display the current date and time. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/gltext -root",
+    "hidden": false,
+    "filename": "gltext.desktop",
+    "id": "screensavers/gltext.desktop",
+    "path": "/usr/share/applications/screensavers/gltext.desktop"
+  },
+  {
+    "name": "Goop",
+    "description": "This draws set of animating, transparent, amoeba-like blobs. The blobs change shape as they wander around the screen, and they are translucent, so you can see the lower blobs through the higher ones, and when one passes over another, their colors merge. I got the idea for this from a mouse pad I had once, which achieved the same kind of effect in real life by having several layers of plastic with colored oil between them. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/goop -root",
+    "hidden": false,
+    "filename": "goop.desktop",
+    "id": "screensavers/goop.desktop",
+    "path": "/usr/share/applications/screensavers/goop.desktop"
+  },
+  {
+    "name": "Grav",
+    "description": "This draws a simple orbital simulation. With trails enabled, it looks kind of like a cloud-chamber photograph. Written by Greg Bowering.",
+    "exec": "/usr/lib/xscreensaver/grav -root",
+    "hidden": false,
+    "filename": "grav.desktop",
+    "id": "screensavers/grav.desktop",
+    "path": "/usr/share/applications/screensavers/grav.desktop"
+  },
+  {
+    "name": "Greynetic",
+    "description": "Draws random colored, stippled and transparent rectangles. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/greynetic -root",
+    "hidden": false,
+    "filename": "greynetic.desktop",
+    "id": "screensavers/greynetic.desktop",
+    "path": "/usr/share/applications/screensavers/greynetic.desktop"
+  },
+  {
+    "name": "Halftone",
+    "description": "Draws the gravity force in each point on the screen seen through a halftone dot pattern. The gravity force is calculated from a set of moving mass points. View it from a distance for best effect. http://en.wikipedia.org/wiki/Halftone Written by Peter Jaric.",
+    "exec": "/usr/lib/xscreensaver/halftone -root",
+    "hidden": false,
+    "filename": "halftone.desktop",
+    "id": "screensavers/halftone.desktop",
+    "path": "/usr/share/applications/screensavers/halftone.desktop"
+  },
+  {
+    "name": "Halo",
+    "description": "Draws trippy psychedelic circular patterns that hurt to look at. http://en.wikipedia.org/wiki/Moire_pattern Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/halo -root",
+    "hidden": false,
+    "filename": "halo.desktop",
+    "id": "screensavers/halo.desktop",
+    "path": "/usr/share/applications/screensavers/halo.desktop"
+  },
+  {
+    "name": "Helix",
+    "description": "Spirally string-art-ish patterns. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/helix -root",
+    "hidden": false,
+    "filename": "helix.desktop",
+    "id": "screensavers/helix.desktop",
+    "path": "/usr/share/applications/screensavers/helix.desktop"
+  },
+  {
+    "name": "Hexadrop",
+    "description": "Draws a grid of hexagons or other shapes and drops them out. http://en.wikipedia.org/wiki/Tiling_by_regular_polygons Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/hexadrop -root",
+    "hidden": false,
+    "filename": "hexadrop.desktop",
+    "id": "screensavers/hexadrop.desktop",
+    "path": "/usr/share/applications/screensavers/hexadrop.desktop"
+  },
+  {
+    "name": "Hilbert",
+    "description": "This draws the recursive Hilbert space-filling curve, in both 2D and 3D variants. It incrementally animates the growth and recursion to the maximum depth, then unwinds it back. The Hilbert path is a single contiguous line that can fill a volume without crossing itself. As a data structure, Hilbert paths are useful because ordering along the curve preserves locality: points that close together along the curve are also close together in space. The converse is often, but not always, true. The coloration reflects this. http://en.wikipedia.org/wiki/Hilbert_curve Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/hilbert -root",
+    "hidden": false,
+    "filename": "hilbert.desktop",
+    "id": "screensavers/hilbert.desktop",
+    "path": "/usr/share/applications/screensavers/hilbert.desktop"
+  },
+  {
+    "name": "Hopalong",
+    "description": "This draws lacy fractal patterns based on iteration in the imaginary plane, from a 1986 Scientific American article. See also the \"Discrete\" screen saver. Written by Patrick Naughton.",
+    "exec": "/usr/lib/xscreensaver/hopalong -root",
+    "hidden": false,
+    "filename": "hopalong.desktop",
+    "id": "screensavers/hopalong.desktop",
+    "path": "/usr/share/applications/screensavers/hopalong.desktop"
+  },
+  {
+    "name": "Hypertorus",
+    "description": "This shows a rotating Clifford Torus: a torus lying on the \"surface\" of a 4D hypersphere. Inspired by Thomas Banchoff's book \"Beyond the Third Dimension: Geometry, Computer Graphics, and Higher Dimensions\", Scientific American Library, 1990. http://en.wikipedia.org/wiki/N-sphere http://en.wikipedia.org/wiki/Clifford_torus http://en.wikipedia.org/wiki/Regular_polytope Written by Carsten Steger.",
+    "exec": "/usr/lib/xscreensaver/hypertorus -root",
+    "hidden": false,
+    "filename": "hypertorus.desktop",
+    "id": "screensavers/hypertorus.desktop",
+    "path": "/usr/share/applications/screensavers/hypertorus.desktop"
+  },
+  {
+    "name": "Hypnowheel",
+    "description": "Draws a series of overlapping, translucent spiral patterns. The tightness of their spirals fluctuates in and out. http://en.wikipedia.org/wiki/Moire_pattern Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/hypnowheel -root",
+    "hidden": false,
+    "filename": "hypnowheel.desktop",
+    "id": "screensavers/hypnowheel.desktop",
+    "path": "/usr/share/applications/screensavers/hypnowheel.desktop"
+  },
+  {
+    "name": "IFS",
+    "description": "This one draws spinning, colliding iterated-function-system images. Note that the \"Detail\" parameter is exponential. Number of points drawn is functions^detail. http://en.wikipedia.org/wiki/Iterated_function_system Written by Chris Le Sueur and Robby Griffin.",
+    "exec": "/usr/lib/xscreensaver/ifs -root",
+    "hidden": false,
+    "filename": "ifs.desktop",
+    "id": "screensavers/ifs.desktop",
+    "path": "/usr/share/applications/screensavers/ifs.desktop"
+  },
+  {
+    "name": "IMSMap",
+    "description": "This generates random cloud-like patterns. The idea is to take four points on the edge of the image, and assign each a random \"elevation\". Then find the point between them, and give it a value which is the average of the other four, plus some small random offset. Coloration is done based on elevation. Written by Juergen Nickelsen and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/imsmap -root",
+    "hidden": false,
+    "filename": "imsmap.desktop",
+    "id": "screensavers/imsmap.desktop",
+    "path": "/usr/share/applications/screensavers/imsmap.desktop"
+  },
+  {
+    "name": "Interaggregate",
+    "description": "A surface is filled with a hundred medium to small sized circles. Each circle has a different size and direction, but moves at the same slow rate. Displays the instantaneous intersections of the circles as well as the aggregate intersections of the circles. Though actually it doesn't look like circles at all! Written by Casey Reas, William Ngan, Robert Hodgin, and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/interaggregate -root",
+    "hidden": false,
+    "filename": "interaggregate.desktop",
+    "id": "screensavers/interaggregate.desktop",
+    "path": "/usr/share/applications/screensavers/interaggregate.desktop"
+  },
+  {
+    "name": "Interference",
+    "description": "Color field based on computing decaying sinusoidal waves. Written by Hannu Mallat.",
+    "exec": "/usr/lib/xscreensaver/interference -root",
+    "hidden": false,
+    "filename": "interference.desktop",
+    "id": "screensavers/interference.desktop",
+    "path": "/usr/share/applications/screensavers/interference.desktop"
+  },
+  {
+    "name": "Intermomentary",
+    "description": "A surface is filled with a hundred medium to small sized circles. Each circle has a different size and direction, but moves at the same slow rate. Displays the instantaneous intersections of the circles as well as the aggregate intersections of the circles. The circles begin with a radius of 1 pixel and slowly increase to some arbitrary size. Circles are drawn with small moving points along the perimeter. The intersections are rendered as glowing orbs. Glowing orbs are rendered only when a perimeter point moves past the intersection point. Written by Casey Reas, William Ngan, Robert Hodgin, and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/intermomentary -root",
+    "hidden": false,
+    "filename": "intermomentary.desktop",
+    "id": "screensavers/intermomentary.desktop",
+    "path": "/usr/share/applications/screensavers/intermomentary.desktop"
+  },
+  {
+    "name": "JigglyPuff",
+    "description": "This does bad things with quasi-spherical objects. You have a tetrahedron with tesselated faces. The vertices on these faces have forces on them: one proportional to the distance from the surface of a sphere; and one proportional to the distance from the neighbors. They also have inertia. The resulting effect can range from a shape that does nothing, to a frenetic polygon storm. Somewhere in between there it usually manifests as a blob that jiggles in a kind of disturbing manner. Written by Keith Macleod.",
+    "exec": "/usr/lib/xscreensaver/jigglypuff -root",
+    "hidden": false,
+    "filename": "jigglypuff.desktop",
+    "id": "screensavers/jigglypuff.desktop",
+    "path": "/usr/share/applications/screensavers/jigglypuff.desktop"
+  },
+  {
+    "name": "Jigsaw",
+    "description": "This grabs a screen image, carves it up into a jigsaw puzzle, shuffles it, and then solves the puzzle. This works especially well when you feed it an external video signal instead of letting it grab the screen image (actually, I guess this is generally true...) When it is grabbing a video image, it is sometimes pretty hard to guess what the image is going to look like once the puzzle is solved. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/jigsaw -root",
+    "hidden": false,
+    "filename": "jigsaw.desktop",
+    "id": "screensavers/jigsaw.desktop",
+    "path": "/usr/share/applications/screensavers/jigsaw.desktop"
+  },
+  {
+    "name": "Juggler3D",
+    "description": "3D simulation of a juggler performing with balls, clubs and rings. http://en.wikipedia.org/wiki/Siteswap Written by Brian Apps.",
+    "exec": "/usr/lib/xscreensaver/juggler3d -root",
+    "hidden": false,
+    "filename": "juggler3d.desktop",
+    "id": "screensavers/juggler3d.desktop",
+    "path": "/usr/share/applications/screensavers/juggler3d.desktop"
+  },
+  {
+    "name": "Julia",
+    "description": "Animates the Julia set (a close relative of the Mandelbrot set). The small moving dot indicates the control point from which the rest of the image was generated. See also the \"Discrete\" screen saver. http://en.wikipedia.org/wiki/Julia_set Written by Sean McCullough.",
+    "exec": "/usr/lib/xscreensaver/julia -root",
+    "hidden": false,
+    "filename": "julia.desktop",
+    "id": "screensavers/julia.desktop",
+    "path": "/usr/share/applications/screensavers/julia.desktop"
+  },
+  {
+    "name": "Kaleidescope",
+    "description": "A simple kaleidoscope. See also \"GLeidescope\". http://en.wikipedia.org/wiki/Kaleidoscope Written by Ron Tapia.",
+    "exec": "/usr/lib/xscreensaver/kaleidescope -root",
+    "hidden": false,
+    "filename": "kaleidescope.desktop",
+    "id": "screensavers/kaleidescope.desktop",
+    "path": "/usr/share/applications/screensavers/kaleidescope.desktop"
+  },
+  {
+    "name": "Kaleidocycle",
+    "description": "Draw a ring composed of tetrahedra connected at the edges that twists and rotates toroidally. When a series of tetrahedra are joined at the edges in a loop, it is possible for them to rotate continously through the center without deforming. This only works with an even number of tetrahedra, and there must be eight or more, or they don't fit. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/kaleidocycle -root",
+    "hidden": false,
+    "filename": "kaleidocycle.desktop",
+    "id": "screensavers/kaleidocycle.desktop",
+    "path": "/usr/share/applications/screensavers/kaleidocycle.desktop"
+  },
+  {
+    "name": "Klein",
+    "description": "This draws a visualization of a Klein bottle or some other interesting parametric surfaces. http://en.wikipedia.org/wiki/Klein_bottle Written by Andrey Mirtchovski.",
+    "exec": "/usr/lib/xscreensaver/klein -root",
+    "hidden": false,
+    "filename": "klein.desktop",
+    "id": "screensavers/klein.desktop",
+    "path": "/usr/share/applications/screensavers/klein.desktop"
+  },
+  {
+    "name": "Kumppa",
+    "description": "Spiraling, spinning, and very, very fast splashes of color rush toward the screen. Written by Teemu Suutari.",
+    "exec": "/usr/lib/xscreensaver/kumppa -root",
+    "hidden": false,
+    "filename": "kumppa.desktop",
+    "id": "screensavers/kumppa.desktop",
+    "path": "/usr/share/applications/screensavers/kumppa.desktop"
+  },
+  {
+    "name": "Lament",
+    "description": "Animates a simulation of Lemarchand's Box, the Lament Configuration, repeatedly solving itself. Warning: occasionally opens doors. http://en.wikipedia.org/wiki/Lemarchand%27s_box Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/lament -root",
+    "hidden": false,
+    "filename": "lament.desktop",
+    "id": "screensavers/lament.desktop",
+    "path": "/usr/share/applications/screensavers/lament.desktop"
+  },
+  {
+    "name": "Lavalite",
+    "description": "Draws a 3D Simulation a Lava Lite(r). Odd-shaped blobs of a mysterious substance are heated, slowly rise to the top of the bottle, and then drop back down as they cool. This simulation requires a fairly fast machine (both CPU and 3D performance.) \"LAVA LITE(r) and the configuration of the LAVA(r) brand motion lamp are registered trademarks of Haggerty Enterprises, Inc. The configuration of the globe and base of the motion lamp are registered trademarks of Haggerty Enterprises, Inc. in the U.S.A. and in other countries around the world.\" http://en.wikipedia.org/wiki/Lava_lamp http://en.wikipedia.org/wiki/Metaballs Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/lavalite -root",
+    "hidden": false,
+    "filename": "lavalite.desktop",
+    "id": "screensavers/lavalite.desktop",
+    "path": "/usr/share/applications/screensavers/lavalite.desktop"
+  },
+  {
+    "name": "LCDscrub",
+    "description": "This screen saver is not meant to look pretty, but rather, to repair burn-in on LCD monitors. Believe it or not, screen burn is not a thing of the past. It can happen to LCD screens pretty easily, even in this modern age. However, leaving the screen on and displaying high contrast images can often repair the damage. That's what this screen saver does. See also: http://docs.info.apple.com/article.html?artnum=88343 http://toastycode.com/blog/2008/02/05/lcd-scrub/ Inspired by the like-named program by Daniel Sandler. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/lcdscrub -root",
+    "hidden": false,
+    "filename": "lcdscrub.desktop",
+    "id": "screensavers/lcdscrub.desktop",
+    "path": "/usr/share/applications/screensavers/lcdscrub.desktop"
+  },
+  {
+    "name": "Lockward",
+    "description": "A translucent spinning, blinking thing. Sort of a cross between the wards in an old combination lock and those old backlit information displays that animated and changed color via polarized light. Written by Leo L. Schwab.",
+    "exec": "/usr/lib/xscreensaver/lockward -root",
+    "hidden": false,
+    "filename": "lockward.desktop",
+    "id": "screensavers/lockward.desktop",
+    "path": "/usr/share/applications/screensavers/lockward.desktop"
+  },
+  {
+    "name": "Loop",
+    "description": "Generates loop-shaped colonies that spawn, age, and eventually die. http://en.wikipedia.org/wiki/Langton%27s_loops Written by David Bagley.",
+    "exec": "/usr/lib/xscreensaver/loop -root",
+    "hidden": false,
+    "filename": "loop.desktop",
+    "id": "screensavers/loop.desktop",
+    "path": "/usr/share/applications/screensavers/loop.desktop"
+  },
+  {
+    "name": "m6502",
+    "description": "This emulates a 6502 microprocessor. The family of 6502 chips were used throughout the 70's and 80's in machines such as the Atari 2600, Commodore PET, VIC20 and C64, Apple ][, and the NES. Some example programs are included, and it can also read in an assembly file as input. Original JavaScript Version by Stian Soreng: http://www.6502asm.com/. Ported to XScreenSaver by Jeremy English. Written by Stian Soreng and Jeremy English.",
+    "exec": "/usr/lib/xscreensaver/m6502 -root",
+    "hidden": false,
+    "filename": "m6502.desktop",
+    "id": "screensavers/m6502.desktop",
+    "path": "/usr/share/applications/screensavers/m6502.desktop"
+  },
+  {
+    "name": "Maze",
+    "description": "This generates random mazes (with various different algorithms), and then solves them. Backtracking and look-ahead paths are displayed in different colors. Written by Jim Randell and many others.",
+    "exec": "/usr/lib/xscreensaver/maze -root",
+    "hidden": false,
+    "filename": "maze.desktop",
+    "id": "screensavers/maze.desktop",
+    "path": "/usr/share/applications/screensavers/maze.desktop"
+  },
+  {
+    "name": "MemScroller",
+    "description": "This draws a dump of its own process memory scrolling across the screen in three windows at three different rates. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/memscroller -root",
+    "hidden": false,
+    "filename": "memscroller.desktop",
+    "id": "screensavers/memscroller.desktop",
+    "path": "/usr/share/applications/screensavers/memscroller.desktop"
+  },
+  {
+    "name": "Menger",
+    "description": "This draws the three-dimensional variant of the recursive Menger Gasket, a cube-based fractal object analagous to the Sierpinski Tetrahedron. http://en.wikipedia.org/wiki/Menger_sponge http://en.wikipedia.org/wiki/Sierpinski_carpet Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/menger -root",
+    "hidden": false,
+    "filename": "menger.desktop",
+    "id": "screensavers/menger.desktop",
+    "path": "/usr/share/applications/screensavers/menger.desktop"
+  },
+  {
+    "name": "MetaBalls",
+    "description": "Draws two dimensional metaballs: overlapping and merging balls with fuzzy edges. http://en.wikipedia.org/wiki/Metaballs Written by W.P. van Paassen.",
+    "exec": "/usr/lib/xscreensaver/metaballs -root",
+    "hidden": false,
+    "filename": "metaballs.desktop",
+    "id": "screensavers/metaballs.desktop",
+    "path": "/usr/share/applications/screensavers/metaballs.desktop"
+  },
+  {
+    "name": "MirrorBlob",
+    "description": "Draws a wobbly blob that distorts the image behind it. Written by Jon Dowdall.",
+    "exec": "/usr/lib/xscreensaver/mirrorblob -root",
+    "hidden": false,
+    "filename": "mirrorblob.desktop",
+    "id": "screensavers/mirrorblob.desktop",
+    "path": "/usr/share/applications/screensavers/mirrorblob.desktop"
+  },
+  {
+    "name": "Moebius",
+    "description": "This animates a 3D rendition M.C. Escher's \"Moebius Strip II\", an image of ants walking along the surface of a moebius strip. http://en.wikipedia.org/wiki/Moebius_strip http://en.wikipedia.org/wiki/Maurits_Cornelis_Escher Written by Marcelo F. Vianna.",
+    "exec": "/usr/lib/xscreensaver/moebius -root",
+    "hidden": false,
+    "filename": "moebius.desktop",
+    "id": "screensavers/moebius.desktop",
+    "path": "/usr/share/applications/screensavers/moebius.desktop"
+  },
+  {
+    "name": "MoebiusGears",
+    "description": "Draws a closed, interlinked chain of rotating gears. The layout of the gears follows the path of a moebius strip. See also the \"Pinion\" and \"Gears\" screen savers. http://en.wikipedia.org/wiki/Involute_gear http://en.wikipedia.org/wiki/Moebius_strip Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/moebiusgears -root",
+    "hidden": false,
+    "filename": "moebiusgears.desktop",
+    "id": "screensavers/moebiusgears.desktop",
+    "path": "/usr/share/applications/screensavers/moebiusgears.desktop"
+  },
+  {
+    "name": "Moire",
+    "description": "When the lines on the screen Make more lines in between, That's a moire'! http://en.wikipedia.org/wiki/Moire_pattern Written by Jamie Zawinski and Michael Bayne.",
+    "exec": "/usr/lib/xscreensaver/moire -root",
+    "hidden": false,
+    "filename": "moire.desktop",
+    "id": "screensavers/moire.desktop",
+    "path": "/usr/share/applications/screensavers/moire.desktop"
+  },
+  {
+    "name": "Moire2",
+    "description": "Generates fields of concentric circles or ovals, and combines the planes with various operations. The planes are moving independently of one another, causing the interference lines to spray. http://en.wikipedia.org/wiki/Moire_pattern Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/moire2 -root",
+    "hidden": false,
+    "filename": "moire2.desktop",
+    "id": "screensavers/moire2.desktop",
+    "path": "/usr/share/applications/screensavers/moire2.desktop"
+  },
+  {
+    "name": "Molecule",
+    "description": "Draws several different representations of molecules. Some common molecules are built in, and it can also read PDB (Protein Data Bank) files as input. http://en.wikipedia.org/wiki/Protein_Data_Bank_%28file_format%29 Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/molecule -root",
+    "hidden": false,
+    "filename": "molecule.desktop",
+    "id": "screensavers/molecule.desktop",
+    "path": "/usr/share/applications/screensavers/molecule.desktop"
+  },
+  {
+    "name": "Morph3D",
+    "description": "Platonic solids that turn inside out and get spikey. http://en.wikipedia.org/wiki/Platonic_solid Written by Marcelo Vianna.",
+    "exec": "/usr/lib/xscreensaver/morph3d -root",
+    "hidden": false,
+    "filename": "morph3d.desktop",
+    "id": "screensavers/morph3d.desktop",
+    "path": "/usr/share/applications/screensavers/morph3d.desktop"
+  },
+  {
+    "name": "Mountain",
+    "description": "Generates random 3D plots that look vaguely mountainous. Written by Pascal Pensa.",
+    "exec": "/usr/lib/xscreensaver/mountain -root",
+    "hidden": false,
+    "filename": "mountain.desktop",
+    "id": "screensavers/mountain.desktop",
+    "path": "/usr/share/applications/screensavers/mountain.desktop"
+  },
+  {
+    "name": "Munch",
+    "description": "DATAI 2 ADDB 1,2 ROTC 2,-22 XOR 1,2 JRST .-4 As reported by HAKMEM, in 1962, Jackson Wright wrote the above PDP-1 code. That code still lives on here, some 46 years later. The number of lines of enclosing code has increased substantially, however. http://en.wikipedia.org/wiki/HAKMEM http://en.wikipedia.org/wiki/Munching_square Written by Jackson Wright and Tim Showalter.",
+    "exec": "/usr/lib/xscreensaver/munch -root",
+    "hidden": false,
+    "filename": "munch.desktop",
+    "id": "screensavers/munch.desktop",
+    "path": "/usr/share/applications/screensavers/munch.desktop"
+  },
+  {
+    "name": "NerveRot",
+    "description": "Draws different shapes composed of nervously vibrating squiggles, as if seen through a camera operated by a monkey on crack. Written by Dan Bornstein.",
+    "exec": "/usr/lib/xscreensaver/nerverot -root",
+    "hidden": false,
+    "filename": "nerverot.desktop",
+    "id": "screensavers/nerverot.desktop",
+    "path": "/usr/share/applications/screensavers/nerverot.desktop"
+  },
+  {
+    "name": "Noof",
+    "description": "Draws some rotatey patterns, using OpenGL. Written by Bill Torzewski.",
+    "exec": "/usr/lib/xscreensaver/noof -root",
+    "hidden": false,
+    "filename": "noof.desktop",
+    "id": "screensavers/noof.desktop",
+    "path": "/usr/share/applications/screensavers/noof.desktop"
+  },
+  {
+    "name": "NoseGuy",
+    "description": "A little man with a big nose wanders around your screen saying things. Written by Dan Heller and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/noseguy -root",
+    "hidden": false,
+    "filename": "noseguy.desktop",
+    "id": "screensavers/noseguy.desktop",
+    "path": "/usr/share/applications/screensavers/noseguy.desktop"
+  },
+  {
+    "name": "Pacman",
+    "description": "Simulates a game of Pac-Man on a randomly-created level. http://en.wikipedia.org/wiki/Pac-Man Written by Edwin de Jong.",
+    "exec": "/usr/lib/xscreensaver/pacman -root",
+    "hidden": false,
+    "filename": "pacman.desktop",
+    "id": "screensavers/pacman.desktop",
+    "path": "/usr/share/applications/screensavers/pacman.desktop"
+  },
+  {
+    "name": "Pedal",
+    "description": "This is sort of a combination spirograph/string-art. It generates a large, complex polygon, and renders it by filling using an even/odd winding rule. Written by Dale Moore.",
+    "exec": "/usr/lib/xscreensaver/pedal -root",
+    "hidden": false,
+    "filename": "pedal.desktop",
+    "id": "screensavers/pedal.desktop",
+    "path": "/usr/share/applications/screensavers/pedal.desktop"
+  },
+  {
+    "name": "Penetrate",
+    "description": "Simulates (something like) the classic arcade game Missile Command. http://en.wikipedia.org/wiki/Missile_Command Written by Adam Miller.",
+    "exec": "/usr/lib/xscreensaver/penetrate -root",
+    "hidden": false,
+    "filename": "penetrate.desktop",
+    "id": "screensavers/penetrate.desktop",
+    "path": "/usr/share/applications/screensavers/penetrate.desktop"
+  },
+  {
+    "name": "Penrose",
+    "description": "Draws quasiperiodic tilings; think of the implications on modern formica technology. In April 1997, Sir Roger Penrose, a British math professor who has worked with Stephen Hawking on such topics as relativity, black holes, and whether time has a beginning, filed a copyright-infringement lawsuit against the Kimberly-Clark Corporation, which Penrose said copied a pattern he created (a pattern demonstrating that \"a nonrepeating pattern could exist in nature\") for its Kleenex quilted toilet paper. Penrose said he doesn't like litigation but, \"When it comes to the population of Great Britain being invited by a multinational to wipe their bottoms on what appears to be the work of a Knight of the Realm, then a last stand must be taken.\" As reported by News of the Weird #491, 4-Jul-1997. http://en.wikipedia.org/wiki/Penrose_tiling Written by Timo Korvola.",
+    "exec": "/usr/lib/xscreensaver/penrose -root",
+    "hidden": false,
+    "filename": "penrose.desktop",
+    "id": "screensavers/penrose.desktop",
+    "path": "/usr/share/applications/screensavers/penrose.desktop"
+  },
+  {
+    "name": "Petri",
+    "description": "This simulates colonies of mold growing in a petri dish. Growing colored circles overlap and leave spiral interference in their wake. Written by Dan Bornstein.",
+    "exec": "/usr/lib/xscreensaver/petri -root",
+    "hidden": false,
+    "filename": "petri.desktop",
+    "id": "screensavers/petri.desktop",
+    "path": "/usr/share/applications/screensavers/petri.desktop"
+  },
+  {
+    "name": "Phosphor",
+    "description": "Draws a simulation of an old terminal, with large pixels and long-sustain phosphor. On X11 systems, This program is also a fully-functional VT100 emulator! Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/phosphor -root",
+    "hidden": false,
+    "filename": "phosphor.desktop",
+    "id": "screensavers/phosphor.desktop",
+    "path": "/usr/share/applications/screensavers/phosphor.desktop"
+  },
+  {
+    "name": "Photopile",
+    "description": "Loads several random images, and displays them as if lying in a random pile. The pile is periodically reshuffled, with new images coming in and old ones being thrown out. Written by Jens Kilian.",
+    "exec": "/usr/lib/xscreensaver/photopile -root",
+    "hidden": false,
+    "filename": "photopile.desktop",
+    "id": "screensavers/photopile.desktop",
+    "path": "/usr/share/applications/screensavers/photopile.desktop"
+  },
+  {
+    "name": "Piecewise",
+    "description": "This draws a bunch of moving circles which switch from visibility to invisibility at intersection points. Written by Geoffrey Irving.",
+    "exec": "/usr/lib/xscreensaver/piecewise -root",
+    "hidden": false,
+    "filename": "piecewise.desktop",
+    "id": "screensavers/piecewise.desktop",
+    "path": "/usr/share/applications/screensavers/piecewise.desktop"
+  },
+  {
+    "name": "Pinion",
+    "description": "Draws an interconnected set of gears moving across the screen. See also the \"Gears\" and \"MoebiusGears\" screen savers. http://en.wikipedia.org/wiki/Involute_gear Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/pinion -root",
+    "hidden": false,
+    "filename": "pinion.desktop",
+    "id": "screensavers/pinion.desktop",
+    "path": "/usr/share/applications/screensavers/pinion.desktop"
+  },
+  {
+    "name": "Pipes",
+    "description": "A growing plumbing system, with bolts and valves. Written by Marcelo Vianna.",
+    "exec": "/usr/lib/xscreensaver/pipes -root",
+    "hidden": false,
+    "filename": "pipes.desktop",
+    "id": "screensavers/pipes.desktop",
+    "path": "/usr/share/applications/screensavers/pipes.desktop"
+  },
+  {
+    "name": "Polyhedra",
+    "description": "Displays different 3D solids and some information about each. A new solid is chosen every few seconds. There are 75 uniform polyhedra, plus 5 infinite sets of prisms and antiprisms; including their duals brings the total to 160. http://en.wikipedia.org/wiki/Uniform_polyhedra Written by Dr. Zvi Har'El and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/polyhedra -root",
+    "hidden": false,
+    "filename": "polyhedra.desktop",
+    "id": "screensavers/polyhedra.desktop",
+    "path": "/usr/share/applications/screensavers/polyhedra.desktop"
+  },
+  {
+    "name": "Polyominoes",
+    "description": "Repeatedly attempts to completely fill a rectangle with irregularly-shaped puzzle pieces. http://en.wikipedia.org/wiki/Polyomino Written by Stephen Montgomery-Smith.",
+    "exec": "/usr/lib/xscreensaver/polyominoes -root",
+    "hidden": false,
+    "filename": "polyominoes.desktop",
+    "id": "screensavers/polyominoes.desktop",
+    "path": "/usr/share/applications/screensavers/polyominoes.desktop"
+  },
+  {
+    "name": "Polytopes",
+    "description": "This shows one of the six regular 4D polytopes rotating in 4D. Inspired by H.S.M Coxeter's book \"Regular Polytopes\", 3rd Edition, Dover Publications, Inc., 1973, and Thomas Banchoff's book \"Beyond the Third Dimension: Geometry, Computer Graphics, and Higher Dimensions\", Scientific American Library, 1990. http://en.wikipedia.org/wiki/Hypercube http://en.wikipedia.org/wiki/Regular_polytope Written by Carsten Steger.",
+    "exec": "/usr/lib/xscreensaver/polytopes -root",
+    "hidden": false,
+    "filename": "polytopes.desktop",
+    "id": "screensavers/polytopes.desktop",
+    "path": "/usr/share/applications/screensavers/polytopes.desktop"
+  },
+  {
+    "name": "Pong",
+    "description": "This simulates the 1971 Pong home video game, as well as various artifacts from displaying it on a color TV set. In clock mode, the score keeps track of the current time. http://en.wikipedia.org/wiki/Pong Written by Jeremy English and Trevor Blackwell.",
+    "exec": "/usr/lib/xscreensaver/pong -root",
+    "hidden": false,
+    "filename": "pong.desktop",
+    "id": "screensavers/pong.desktop",
+    "path": "/usr/share/applications/screensavers/pong.desktop"
+  },
+  {
+    "name": "ProjectivePlane",
+    "description": "This animates a 4D embedding of the real projective plane. You can walk on the surface of the real projective plane or rotate it in 4D or walk on it while it rotates in 4D. Inspired by Thomas Banchoff's book \"Beyond the Third Dimension: Geometry, Computer Graphics, and Higher Dimensions\", Scientific American Library, 1990. http://en.wikipedia.org/wiki/Real_projective_plane http://en.wikipedia.org/wiki/Roman_surface http://en.wikipedia.org/wiki/Cross_cap http://en.wikipedia.org/wiki/Moebius_strip http://mathworld.wolfram.com/RealProjectivePlane.html http://mathworld.wolfram.com/RomanSurface.html http://mathworld.wolfram.com/Cross-Cap.html http://mathworld.wolfram.com/MoebiusStrip.html Written by Carsten Steger.",
+    "exec": "/usr/lib/xscreensaver/projectiveplane -root",
+    "hidden": false,
+    "filename": "projectiveplane.desktop",
+    "id": "screensavers/projectiveplane.desktop",
+    "path": "/usr/share/applications/screensavers/projectiveplane.desktop"
+  },
+  {
+    "name": "Providence",
+    "description": "\"A pyramid unfinished. In the zenith an eye in a triangle, surrounded by a glory, proper.\" http://en.wikipedia.org/wiki/Eye_of_Providence Written by Blair Tennessy.",
+    "exec": "/usr/lib/xscreensaver/providence -root",
+    "hidden": false,
+    "filename": "providence.desktop",
+    "id": "screensavers/providence.desktop",
+    "path": "/usr/share/applications/screensavers/providence.desktop"
+  },
+  {
+    "name": "Pulsar",
+    "description": "Draws some intersecting planes, making use of alpha blending, fog, textures, and mipmaps. Written by David Konerding.",
+    "exec": "/usr/lib/xscreensaver/pulsar -root",
+    "hidden": false,
+    "filename": "pulsar.desktop",
+    "id": "screensavers/pulsar.desktop",
+    "path": "/usr/share/applications/screensavers/pulsar.desktop"
+  },
+  {
+    "name": "Pyro",
+    "description": "Exploding fireworks. See also the \"Fireworkx\", \"Eruption\", and \"XFlame\" screen savers. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/pyro -root",
+    "hidden": false,
+    "filename": "pyro.desktop",
+    "id": "screensavers/pyro.desktop",
+    "path": "/usr/share/applications/screensavers/pyro.desktop"
+  },
+  {
+    "name": "Qix",
+    "description": "Bounces a series of line segments around the screen, and uses variations on this basic motion pattern to produce all sorts of different presentations: line segments, filled polygons, and overlapping translucent areas. http://en.wikipedia.org/wiki/Qix Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/qix -root",
+    "hidden": false,
+    "filename": "qix.desktop",
+    "id": "screensavers/qix.desktop",
+    "path": "/usr/share/applications/screensavers/qix.desktop"
+  },
+  {
+    "name": "QuasiCrystal",
+    "description": "A quasicrystal is a structure that is ordered but aperiodic. Two-dimensional quasicrystals can be generated by adding a set of planes where x is the sine of y. Different complex aperiodic plane tilings are produced depending on the period, position, and rotation of the component planes, and whether the rotation of the planes is evenly distributed around the circle (the \"symmetry\" option, above) or random. See also the \"RD-Bomb\", \"CWaves\" and \"Penrose\" screen savers. http://en.wikipedia.org/wiki/Quasicrystal Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/quasicrystal -root",
+    "hidden": false,
+    "filename": "quasicrystal.desktop",
+    "id": "screensavers/quasicrystal.desktop",
+    "path": "/usr/share/applications/screensavers/quasicrystal.desktop"
+  },
+  {
+    "name": "Queens",
+    "description": "Solves the N-Queens problem (where N is between 5 and 10 queens). The problem is: how may one place N queens on an NxN chessboard such that no queen can attack a sister? See also the \"Endgame\" screen saver. http://en.wikipedia.org/wiki/Eight_queens_puzzle Written by Blair Tennessy.",
+    "exec": "/usr/lib/xscreensaver/queens -root",
+    "hidden": false,
+    "filename": "queens.desktop",
+    "id": "screensavers/queens.desktop",
+    "path": "/usr/share/applications/screensavers/queens.desktop"
+  },
+  {
+    "name": "RDbomb",
+    "description": "Draws a grid of growing square-like shapes that, once they overtake each other, react in unpredictable ways. \"RD\" stands for reaction-diffusion. Written by Scott Draves.",
+    "exec": "/usr/lib/xscreensaver/rd-bomb -root",
+    "hidden": false,
+    "filename": "rd-bomb.desktop",
+    "id": "screensavers/rd-bomb.desktop",
+    "path": "/usr/share/applications/screensavers/rd-bomb.desktop"
+  },
+  {
+    "name": "Ripples",
+    "description": "This draws rippling interference patterns like splashing water. With the -water option, it manipulates your desktop image to look like something is dripping into it. Written by Tom Hammersley.",
+    "exec": "/usr/lib/xscreensaver/ripples -root",
+    "hidden": false,
+    "filename": "ripples.desktop",
+    "id": "screensavers/ripples.desktop",
+    "path": "/usr/share/applications/screensavers/ripples.desktop"
+  },
+  {
+    "name": "Rocks",
+    "description": "This draws an animation of flight through an asteroid field, with changes in rotation and direction. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/rocks -root",
+    "hidden": false,
+    "filename": "rocks.desktop",
+    "id": "screensavers/rocks.desktop",
+    "path": "/usr/share/applications/screensavers/rocks.desktop"
+  },
+  {
+    "name": "RomanBoy",
+    "description": "A 3D immersion of the real projective plane that smoothly deforms between the Roman surface and the Boy surface. You can walk on the surface of the real projective plane or rotate it in 3D. Furthermore, it is possible to smoothly deform the real projective plane between the Roman surface and the Boy surface while turning it or walking on it. Inspired by François Apéry's book \"Models of the Real Projective Plane\", Vieweg, 1987. https://en.wikipedia.org/wiki/Boy%27s_surface https://en.wikipedia.org/wiki/Roman_surface http://mathworld.wolfram.com/BoySurface.html http://mathworld.wolfram.com/RomanSurface.html Written by Carsten Steger.",
+    "exec": "/usr/lib/xscreensaver/romanboy -root",
+    "hidden": false,
+    "filename": "romanboy.desktop",
+    "id": "screensavers/romanboy.desktop",
+    "path": "/usr/share/applications/screensavers/romanboy.desktop"
+  },
+  {
+    "name": "Rorschach",
+    "description": "This generates random inkblot patterns via a reflected random walk. Any deep-seated neurotic tendencies which this program reveals are your own problem. http://en.wikipedia.org/wiki/Rorschach_inkblot_test http://en.wikipedia.org/wiki/Random_walk Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/rorschach -root",
+    "hidden": false,
+    "filename": "rorschach.desktop",
+    "id": "screensavers/rorschach.desktop",
+    "path": "/usr/share/applications/screensavers/rorschach.desktop"
+  },
+  {
+    "name": "RotZoomer",
+    "description": "Creates a collage of rotated and scaled portions of the screen. Written by Claudio Matsuoka.",
+    "exec": "/usr/lib/xscreensaver/rotzoomer -root",
+    "hidden": false,
+    "filename": "rotzoomer.desktop",
+    "id": "screensavers/rotzoomer.desktop",
+    "path": "/usr/share/applications/screensavers/rotzoomer.desktop"
+  },
+  {
+    "name": "Rubik",
+    "description": "Draws a Rubik's Cube that rotates in three dimensions and repeatedly shuffles and solves itself. See also the \"GLSnake\" and \"Cube21\" screen savers. http://en.wikipedia.org/wiki/Rubik%27s_Cube Written by Marcelo Vianna.",
+    "exec": "/usr/lib/xscreensaver/rubik -root",
+    "hidden": false,
+    "filename": "rubik.desktop",
+    "id": "screensavers/rubik.desktop",
+    "path": "/usr/share/applications/screensavers/rubik.desktop"
+  },
+  {
+    "name": "RubikBlocks",
+    "description": "Animates the Rubik's Mirror Blocks puzzle. See also the \"Rubik\", \"Cube21\", and \"GLSnake\" screen savers. http://en.wikipedia.org/wiki/Combination_puzzles#Irregular_Cuboids Written by Vasek Potocek.",
+    "exec": "/usr/lib/xscreensaver/rubikblocks -root",
+    "hidden": false,
+    "filename": "rubikblocks.desktop",
+    "id": "screensavers/rubikblocks.desktop",
+    "path": "/usr/share/applications/screensavers/rubikblocks.desktop"
+  },
+  {
+    "name": "SBalls",
+    "description": "Draws an animation of textured balls spinning like crazy. Written by Eric Lassauge.",
+    "exec": "/usr/lib/xscreensaver/sballs -root",
+    "hidden": false,
+    "filename": "sballs.desktop",
+    "id": "screensavers/sballs.desktop",
+    "path": "/usr/share/applications/screensavers/sballs.desktop"
+  },
+  {
+    "name": "ShadeBobs",
+    "description": "This draws smoothly-shaded oscillating oval patterns that look something like vapor trails or neon tubes. Written by Shane Smit.",
+    "exec": "/usr/lib/xscreensaver/shadebobs -root",
+    "hidden": false,
+    "filename": "shadebobs.desktop",
+    "id": "screensavers/shadebobs.desktop",
+    "path": "/usr/share/applications/screensavers/shadebobs.desktop"
+  },
+  {
+    "name": "Sierpinski",
+    "description": "This draws the two-dimensional variant of the recursive Sierpinski triangle fractal. See also the \"Sierpinski3D\" screen saver. http://en.wikipedia.org/wiki/Sierpinski_triangle Written by Desmond Daignault.",
+    "exec": "/usr/lib/xscreensaver/sierpinski -root",
+    "hidden": false,
+    "filename": "sierpinski.desktop",
+    "id": "screensavers/sierpinski.desktop",
+    "path": "/usr/share/applications/screensavers/sierpinski.desktop"
+  },
+  {
+    "name": "Sierpinski3D",
+    "description": "This draws the Sierpinski tetrahedron fractal, the three-dimensional variant of the recursive Sierpinski triangle. http://en.wikipedia.org/wiki/Sierpinski_triangle#Analogs_in_higher_dimension Written by Tim Robinson and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/sierpinski3d -root",
+    "hidden": false,
+    "filename": "sierpinski3d.desktop",
+    "id": "screensavers/sierpinski3d.desktop",
+    "path": "/usr/share/applications/screensavers/sierpinski3d.desktop"
+  },
+  {
+    "name": "SkyTentacles",
+    "description": "There is a tentacled abomination in the sky. From above you it devours. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/skytentacles -root",
+    "hidden": false,
+    "filename": "skytentacles.desktop",
+    "id": "screensavers/skytentacles.desktop",
+    "path": "/usr/share/applications/screensavers/skytentacles.desktop"
+  },
+  {
+    "name": "SlideScreen",
+    "description": "This takes an image, divides it into a grid, and then randomly shuffles the squares around as if it was one of those \"fifteen-puzzle\" games where there is a grid of squares, one of which is missing. http://en.wikipedia.org/wiki/Fifteen_puzzle Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/slidescreen -root",
+    "hidden": false,
+    "filename": "slidescreen.desktop",
+    "id": "screensavers/slidescreen.desktop",
+    "path": "/usr/share/applications/screensavers/slidescreen.desktop"
+  },
+  {
+    "name": "Slip",
+    "description": "This throws some random bits on the screen, then sucks them through a jet engine and spews them out the other side. To avoid turning the image completely to mush, every now and then it will it interject some splashes of color into the scene, or go into a spin cycle, or stretch the image like taffy. Written by Scott Draves and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/slip -root",
+    "hidden": false,
+    "filename": "slip.desktop",
+    "id": "screensavers/slip.desktop",
+    "path": "/usr/share/applications/screensavers/slip.desktop"
+  },
+  {
+    "name": "Sonar",
+    "description": "This draws a sonar screen that pings (get it?) the hosts on your local network, and plots their distance (response time) from you. The three rings represent ping times of approximately 2.5, 70 and 2,000 milliseconds respectively. Alternately, it can run a simulation that doesn't involve hosts. (If pinging doesn't work, you may need to make the executable be setuid.) http://en.wikipedia.org/wiki/Ping#History Written by Stephen Martin and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/sonar -root",
+    "hidden": false,
+    "filename": "sonar.desktop",
+    "id": "screensavers/sonar.desktop",
+    "path": "/usr/share/applications/screensavers/sonar.desktop"
+  },
+  {
+    "name": "SpeedMine",
+    "description": "Simulates speeding down a rocky mineshaft, or a funky dancing worm. Written by Conrad Parker.",
+    "exec": "/usr/lib/xscreensaver/speedmine -root",
+    "hidden": false,
+    "filename": "speedmine.desktop",
+    "id": "screensavers/speedmine.desktop",
+    "path": "/usr/share/applications/screensavers/speedmine.desktop"
+  },
+  {
+    "name": "Spheremonics",
+    "description": "These closed objects are commonly called spherical harmonics, although they are only remotely related to the mathematical definition found in the solution to certain wave functions, most notably the eigenfunctions of angular momentum operators. http://en.wikipedia.org/wiki/Spherical_harmonics#Visualization_of_the_spherical_harmonics Written by Paul Bourke and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/spheremonics -root",
+    "hidden": false,
+    "filename": "spheremonics.desktop",
+    "id": "screensavers/spheremonics.desktop",
+    "path": "/usr/share/applications/screensavers/spheremonics.desktop"
+  },
+  {
+    "name": "SplitFlap",
+    "description": "Simulates a split-flap display, an old style of electromechanical sign as seen in airports and train stations, and commonly used in alarm clocks in the 1960s and 1970s. https://en.wikipedia.org/wiki/Split-flap_display https://en.wikipedia.org/wiki/Flip_clock Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/splitflap -root",
+    "hidden": false,
+    "filename": "splitflap.desktop",
+    "id": "screensavers/splitflap.desktop",
+    "path": "/usr/share/applications/screensavers/splitflap.desktop"
+  },
+  {
+    "name": "Spotlight",
+    "description": "Draws a spotlight scanning across a black screen, illuminating the underlying desktop (or a picture) when it passes. Written by Rick Schultz and Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/spotlight -root",
+    "hidden": false,
+    "filename": "spotlight.desktop",
+    "id": "screensavers/spotlight.desktop",
+    "path": "/usr/share/applications/screensavers/spotlight.desktop"
+  },
+  {
+    "name": "Sproingies",
+    "description": "Slinky-like creatures walk down an infinite staircase and occasionally explode! http://en.wikipedia.org/wiki/Slinky http://en.wikipedia.org/wiki/Q%2Abert http://en.wikipedia.org/wiki/Marble_Madness Written by Ed Mackey.",
+    "exec": "/usr/lib/xscreensaver/sproingies -root",
+    "hidden": false,
+    "filename": "sproingies.desktop",
+    "id": "screensavers/sproingies.desktop",
+    "path": "/usr/share/applications/screensavers/sproingies.desktop"
+  },
+  {
+    "name": "Squiral",
+    "description": "Draws a set of interacting, square-spiral-producing automata. The spirals grow outward until they hit something, then they go around it. Written by Jeff Epler.",
+    "exec": "/usr/lib/xscreensaver/squiral -root",
+    "hidden": false,
+    "filename": "squiral.desktop",
+    "id": "screensavers/squiral.desktop",
+    "path": "/usr/share/applications/screensavers/squiral.desktop"
+  },
+  {
+    "name": "Stairs",
+    "description": "Escher's infinite staircase. http://en.wikipedia.org/wiki/Maurits_Cornelis_Escher Written by Marcelo Vianna.",
+    "exec": "/usr/lib/xscreensaver/stairs -root",
+    "hidden": false,
+    "filename": "stairs.desktop",
+    "id": "screensavers/stairs.desktop",
+    "path": "/usr/share/applications/screensavers/stairs.desktop"
+  },
+  {
+    "name": "Starfish",
+    "description": "This generates a sequence of undulating, throbbing, star-like patterns which pulsate, rotate, and turn inside out. Another display mode uses these shapes to lay down a field of colors, which are then cycled. The motion is very organic. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/starfish -root",
+    "hidden": false,
+    "filename": "starfish.desktop",
+    "id": "screensavers/starfish.desktop",
+    "path": "/usr/share/applications/screensavers/starfish.desktop"
+  },
+  {
+    "name": "StarWars",
+    "description": "Draws a stream of text slowly scrolling into the distance at an angle, over a star field, like at the beginning of the movie of the same name. http://en.wikipedia.org/wiki/Star_Wars_opening_crawl Written by Jamie Zawinski and Claudio Matauoka.",
+    "exec": "/usr/lib/xscreensaver/starwars -root",
+    "hidden": false,
+    "filename": "starwars.desktop",
+    "id": "screensavers/starwars.desktop",
+    "path": "/usr/share/applications/screensavers/starwars.desktop"
+  },
+  {
+    "name": "StonerView",
+    "description": "Chains of colorful squares dance around each other in complex spiral patterns. Inspired by David Tristram's `electropaint' screen saver, originally written for SGI computers in the late 1980s or early 1990s. Written by Andrew Plotkin.",
+    "exec": "/usr/lib/xscreensaver/stonerview -root",
+    "hidden": false,
+    "filename": "stonerview.desktop",
+    "id": "screensavers/stonerview.desktop",
+    "path": "/usr/share/applications/screensavers/stonerview.desktop"
+  },
+  {
+    "name": "Strange",
+    "description": "This draws iterations to strange attractors: it's a colorful, unpredictably-animating swarm of dots that swoops and twists around. http://en.wikipedia.org/wiki/Attractor#Strange_attractor Written by Massimino Pascal.",
+    "exec": "/usr/lib/xscreensaver/strange -root",
+    "hidden": false,
+    "filename": "strange.desktop",
+    "id": "screensavers/strange.desktop",
+    "path": "/usr/share/applications/screensavers/strange.desktop"
+  },
+  {
+    "name": "Substrate",
+    "description": "Crystalline lines grow on a computational substrate. A simple perpendicular growth rule creates intricate city-like structures. Written by J. Tarbell and Mike Kershaw.",
+    "exec": "/usr/lib/xscreensaver/substrate -root",
+    "hidden": false,
+    "filename": "substrate.desktop",
+    "id": "screensavers/substrate.desktop",
+    "path": "/usr/share/applications/screensavers/substrate.desktop"
+  },
+  {
+    "name": "Superquadrics",
+    "description": "Morphing 3D shapes. Written by Ed Mackey.",
+    "exec": "/usr/lib/xscreensaver/superquadrics -root",
+    "hidden": false,
+    "filename": "superquadrics.desktop",
+    "id": "screensavers/superquadrics.desktop",
+    "path": "/usr/share/applications/screensavers/superquadrics.desktop"
+  },
+  {
+    "name": "Surfaces",
+    "description": "This draws a visualization of several interesting parametric surfaces. http://mathworld.wolfram.com/DinisSurface.html http://en.wikipedia.org/wiki/Enneper_surface http://mathworld.wolfram.com/EnnepersMinimalSurface.html http://mathworld.wolfram.com/KuenSurface.html http://en.wikipedia.org/wiki/Moebius_strip http://mathworld.wolfram.com/Seashell.html http://mathworld.wolfram.com/SwallowtailCatastrophe.html http://mathworld.wolfram.com/BohemianDome.html http://en.wikipedia.org/wiki/Whitney_umbrella http://mathworld.wolfram.com/PlueckersConoid.html http://mathworld.wolfram.com/HennebergsMinimalSurface.html http://mathworld.wolfram.com/CatalansSurface.html http://mathworld.wolfram.com/CorkscrewSurface.html Written by Andrey Mirtchovski and Carsten Steger.",
+    "exec": "/usr/lib/xscreensaver/surfaces -root",
+    "hidden": false,
+    "filename": "surfaces.desktop",
+    "id": "screensavers/surfaces.desktop",
+    "path": "/usr/share/applications/screensavers/surfaces.desktop"
+  },
+  {
+    "name": "Swirl",
+    "description": "Flowing, swirly patterns. Written by M. Dobie and R. Taylor.",
+    "exec": "/usr/lib/xscreensaver/swirl -root",
+    "hidden": false,
+    "filename": "swirl.desktop",
+    "id": "screensavers/swirl.desktop",
+    "path": "/usr/share/applications/screensavers/swirl.desktop"
+  },
+  {
+    "name": "Tangram",
+    "description": "Solves tangram puzzles. http://en.wikipedia.org/wiki/Tangram Written by Jeremy English.",
+    "exec": "/usr/lib/xscreensaver/tangram -root",
+    "hidden": false,
+    "filename": "tangram.desktop",
+    "id": "screensavers/tangram.desktop",
+    "path": "/usr/share/applications/screensavers/tangram.desktop"
+  },
+  {
+    "name": "Tessellimage",
+    "description": "Converts an image to triangles using Delaunay tessellation, and animates the result at various depths. More triangles are allocated to visually complex parts of the image. This is accomplished by first computing the first derivative of the image: the distance between each pixel and its neighbors (which is essentially edge detection or embossing). Then the Delaunay control points are chosen by selecting those pixels whose distance value is above a certain threshold: those are the pixels that have the largest change in color/brightness. http://en.wikipedia.org/wiki/Delaunay_triangulation Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/tessellimage -root",
+    "hidden": false,
+    "filename": "tessellimage.desktop",
+    "id": "screensavers/tessellimage.desktop",
+    "path": "/usr/share/applications/screensavers/tessellimage.desktop"
+  },
+  {
+    "name": "Thornbird",
+    "description": "Displays a view of the \"Bird in a Thornbush\" fractal. Written by Tim Auckland.",
+    "exec": "/usr/lib/xscreensaver/thornbird -root",
+    "hidden": false,
+    "filename": "thornbird.desktop",
+    "id": "screensavers/thornbird.desktop",
+    "path": "/usr/share/applications/screensavers/thornbird.desktop"
+  },
+  {
+    "name": "TimeTunnel",
+    "description": "Draws an animation similar to the opening and closing effects on the Dr. Who TV show. Written by Sean P. Brennan.",
+    "exec": "/usr/lib/xscreensaver/timetunnel -root",
+    "hidden": false,
+    "filename": "timetunnel.desktop",
+    "id": "screensavers/timetunnel.desktop",
+    "path": "/usr/share/applications/screensavers/timetunnel.desktop"
+  },
+  {
+    "name": "TopBlock",
+    "description": "Creates a 3D world with dropping blocks that build up and up. Written by rednuht.",
+    "exec": "/usr/lib/xscreensaver/topblock -root",
+    "hidden": false,
+    "filename": "topblock.desktop",
+    "id": "screensavers/topblock.desktop",
+    "path": "/usr/share/applications/screensavers/topblock.desktop"
+  },
+  {
+    "name": "Triangle",
+    "description": "Generates random mountain ranges using iterative subdivision of triangles. Written by Tobias Gloth.",
+    "exec": "/usr/lib/xscreensaver/triangle -root",
+    "hidden": false,
+    "filename": "triangle.desktop",
+    "id": "screensavers/triangle.desktop",
+    "path": "/usr/share/applications/screensavers/triangle.desktop"
+  },
+  {
+    "name": "TronBit",
+    "description": "Draws an animation of the character \"Bit\" from the film, \"Tron\". The \"yes\" state is a tetrahedron; the \"no\" state is the second stellation of an icosahedron; and the idle state oscillates between a small triambic icosahedron and the compound of an icosahedron and a dodecahedron. http://en.wikipedia.org/wiki/List_of_Tron_characters#Bit http://en.wikipedia.org/wiki/Uniform_polyhedra http://en.wikipedia.org/wiki/Stellation Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/tronbit -root",
+    "hidden": false,
+    "filename": "tronbit.desktop",
+    "id": "screensavers/tronbit.desktop",
+    "path": "/usr/share/applications/screensavers/tronbit.desktop"
+  },
+  {
+    "name": "Truchet",
+    "description": "This draws line- and arc-based truchet patterns that tile the screen. http://en.wikipedia.org/wiki/Tessellation Written by Adrian Likins.",
+    "exec": "/usr/lib/xscreensaver/truchet -root",
+    "hidden": false,
+    "filename": "truchet.desktop",
+    "id": "screensavers/truchet.desktop",
+    "path": "/usr/share/applications/screensavers/truchet.desktop"
+  },
+  {
+    "name": "Twang",
+    "description": "Divides the screen into a grid, and plucks them. Written by Dan Bornstein.",
+    "exec": "/usr/lib/xscreensaver/twang -root",
+    "hidden": false,
+    "filename": "twang.desktop",
+    "id": "screensavers/twang.desktop",
+    "path": "/usr/share/applications/screensavers/twang.desktop"
+  },
+  {
+    "name": "UnknownPleasures",
+    "description": "PSR B1919+21 (AKA CP 1919) was the first pulsar ever discovered: a spinning neutron star emitting a periodic lighthouse-like beacon. An illustration of the signal received from it was published in Scientific American in 1971, and later in The Cambridge Encyclopedia of Astronomy in 1977, where it was seen by Stephen Morris, the drummer of Joy Division, and was consequently appropriated by Peter Saville for the cover of the band's album \"Unknown Pleasures\". http://en.wikipedia.org/wiki/Pulsar http://en.wikipedia.org/wiki/PSR_B1919%2B21 http://en.wikipedia.org/wiki/Unknown_Pleasures http://en.wikipedia.org/wiki/Peter_Saville_%28graphic_designer%29 http://en.wikipedia.org/wiki/Joy_Division Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/unknownpleasures -root",
+    "hidden": false,
+    "filename": "unknownpleasures.desktop",
+    "id": "screensavers/unknownpleasures.desktop",
+    "path": "/usr/share/applications/screensavers/unknownpleasures.desktop"
+  },
+  {
+    "name": "Vermiculate",
+    "description": "Draws squiggly worm-like paths. Written by Tyler Pierce.",
+    "exec": "/usr/lib/xscreensaver/vermiculate -root",
+    "hidden": false,
+    "filename": "vermiculate.desktop",
+    "id": "screensavers/vermiculate.desktop",
+    "path": "/usr/share/applications/screensavers/vermiculate.desktop"
+  },
+  {
+    "name": "VidWhacker",
+    "description": "This is a shell script that grabs a frame of video from the system's video input, and then uses some PBM filters (chosen at random) to manipulate and recombine the video frame in various ways (edge detection, subtracting the image from a rotated version of itself, etc.) Then it displays that image for a few seconds, and does it again. This works really well if you just feed broadcast television into it. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/vidwhacker -root",
+    "hidden": false,
+    "filename": "vidwhacker.desktop",
+    "id": "screensavers/vidwhacker.desktop",
+    "path": "/usr/share/applications/screensavers/vidwhacker.desktop"
+  },
+  {
+    "name": "Voronoi",
+    "description": "Draws a randomly-colored Voronoi tessellation, and periodically zooms in and adds new points. The existing points also wander around. There are a set of control points on the plane, each at the center of a colored cell. Every pixel within that cell is closer to that cell's control point than to any other control point. That is what determines the cell's shapes. http://en.wikipedia.org/wiki/Voronoi_diagram Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/voronoi -root",
+    "hidden": false,
+    "filename": "voronoi.desktop",
+    "id": "screensavers/voronoi.desktop",
+    "path": "/usr/share/applications/screensavers/voronoi.desktop"
+  },
+  {
+    "name": "Wander",
+    "description": "Draws a colorful random-walk, in various forms. http://en.wikipedia.org/wiki/Random_walk Written by Rick Campbell.",
+    "exec": "/usr/lib/xscreensaver/wander -root",
+    "hidden": false,
+    "filename": "wander.desktop",
+    "id": "screensavers/wander.desktop",
+    "path": "/usr/share/applications/screensavers/wander.desktop"
+  },
+  {
+    "name": "WhirlWindWarp",
+    "description": "Floating stars are acted upon by a mixture of simple 2D forcefields. The strength of each forcefield changes continuously, and it is also switched on and off at random. Written by Paul 'Joey' Clark.",
+    "exec": "/usr/lib/xscreensaver/whirlwindwarp -root",
+    "hidden": false,
+    "filename": "whirlwindwarp.desktop",
+    "id": "screensavers/whirlwindwarp.desktop",
+    "path": "/usr/share/applications/screensavers/whirlwindwarp.desktop"
+  },
+  {
+    "name": "WindupRobot",
+    "description": "A swarm of wind-up toy robots wander around the table-top, bumping into each other. Each robot contains a mechanically accurate gear system inside, which you can see when the robot's shell occasionally fades to transparency. Also, sometimes a cartoony word bubble pops up above a robot, full of random text. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/winduprobot -root",
+    "hidden": false,
+    "filename": "winduprobot.desktop",
+    "id": "screensavers/winduprobot.desktop",
+    "path": "/usr/share/applications/screensavers/winduprobot.desktop"
+  },
+  {
+    "name": "Wormhole",
+    "description": "Flying through a colored wormhole in space. Written by Jon Rafkind.",
+    "exec": "/usr/lib/xscreensaver/wormhole -root",
+    "hidden": false,
+    "filename": "wormhole.desktop",
+    "id": "screensavers/wormhole.desktop",
+    "path": "/usr/share/applications/screensavers/wormhole.desktop"
+  },
+  {
+    "name": "XAnalogTV",
+    "description": "XAnalogTV shows a detailed simulation of an old TV set showing various test patterns, with various picture artifacts like snow, bloom, distortion, ghosting, and hash noise. It also simulates the TV warming up. It will cycle through 12 channels, some with images you give it, and some with color bars or nothing but static. Written by Trevor Blackwell.",
+    "exec": "/usr/lib/xscreensaver/xanalogtv -root",
+    "hidden": false,
+    "filename": "xanalogtv.desktop",
+    "id": "screensavers/xanalogtv.desktop",
+    "path": "/usr/share/applications/screensavers/xanalogtv.desktop"
+  },
+  {
+    "name": "XFlame",
+    "description": "Draws a simulation of pulsing fire. It can also take an arbitrary image and set it on fire too. Written by Carsten Haitzler and many others.",
+    "exec": "/usr/lib/xscreensaver/xflame -root",
+    "hidden": false,
+    "filename": "xflame.desktop",
+    "id": "screensavers/xflame.desktop",
+    "path": "/usr/share/applications/screensavers/xflame.desktop"
+  },
+  {
+    "name": "XJack",
+    "description": "This behaves schizophrenically and makes a lot of typos. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/xjack -root",
+    "hidden": false,
+    "filename": "xjack.desktop",
+    "id": "screensavers/xjack.desktop",
+    "path": "/usr/share/applications/screensavers/xjack.desktop"
+  },
+  {
+    "name": "XLyap",
+    "description": "This generates pretty fractal pictures via the Lyapunov exponent. http://en.wikipedia.org/wiki/Lyapunov_exponent Written by Ron Record.",
+    "exec": "/usr/lib/xscreensaver/xlyap -root",
+    "hidden": false,
+    "filename": "xlyap.desktop",
+    "id": "screensavers/xlyap.desktop",
+    "path": "/usr/share/applications/screensavers/xlyap.desktop"
+  },
+  {
+    "name": "XMatrix",
+    "description": "Draws dropping characters similar to what is seen on the computer monitors in \"The Matrix\". See also \"GLMatrix\" for a 3D rendering of the similar effect that appeared in the movie's title sequence. Written by Jamie Zawinski.",
+    "exec": "/usr/lib/xscreensaver/xmatrix -root",
+    "hidden": false,
+    "filename": "xmatrix.desktop",
+    "id": "screensavers/xmatrix.desktop",
+    "path": "/usr/share/applications/screensavers/xmatrix.desktop"
+  },
+  {
+    "name": "XRaySwarm",
+    "description": "Draws a few swarms of critters flying around the screen, with faded color trails behind them. Written by Chris Leger.",
+    "exec": "/usr/lib/xscreensaver/xrayswarm -root",
+    "hidden": false,
+    "filename": "xrayswarm.desktop",
+    "id": "screensavers/xrayswarm.desktop",
+    "path": "/usr/share/applications/screensavers/xrayswarm.desktop"
+  },
+  {
+    "name": "XSpirograph",
+    "description": "Simulates that pen-in-nested-plastic-gears toy from your childhood. http://en.wikipedia.org/wiki/Spirograph Written by Rohit Singh.",
+    "exec": "/usr/lib/xscreensaver/xspirograph -root",
+    "hidden": false,
+    "filename": "xspirograph.desktop",
+    "id": "screensavers/xspirograph.desktop",
+    "path": "/usr/share/applications/screensavers/xspirograph.desktop"
+  },
+  {
+    "name": "Zoom",
+    "description": "Zooms in on a part of the screen and then moves around. With the \"Lenses\" option, the result is like looking through many overlapping lenses rather than just a simple zoom. Written by James Macnicol.",
+    "exec": "/usr/lib/xscreensaver/zoom -root",
+    "hidden": false,
+    "filename": "zoom.desktop",
+    "id": "screensavers/zoom.desktop",
+    "path": "/usr/share/applications/screensavers/zoom.desktop"
+  },
+  {
+    "name": "Passwords and Keys",
+    "description": "Manage your passwords and encryption keys",
+    "exec": "/usr/bin/seahorse",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/seahorse.png",
+    "filename": "seahorse.desktop",
+    "id": "seahorse.desktop",
+    "path": "/usr/share/applications/seahorse.desktop"
+  },
+  {
+    "name": "Send Anywhere",
+    "description": "File Transfer",
+    "exec": "/usr/bin/sendanywhere",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/estmob-sendanywhere.png",
+    "filename": "sendanywhere.desktop",
+    "id": "sendanywhere.desktop",
+    "path": "/usr/share/applications/sendanywhere.desktop"
+  },
+  {
+    "name": "Simple Scan",
+    "description": "Scan Documents",
+    "exec": "simple-scan",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/scanner.png",
+    "filename": "simple-scan.desktop",
+    "id": "simple-scan.desktop",
+    "path": "/usr/share/applications/simple-scan.desktop"
+  },
+  {
+    "name": "SimpleScreenRecorder",
+    "description": "A feature-rich screen recorder that supports X11 and OpenGL",
+    "exec": "simplescreenrecorder --logfile",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/simplescreenrecorder.svg",
+    "filename": "simplescreenrecorder.desktop",
+    "id": "simplescreenrecorder.desktop",
+    "path": "/usr/share/applications/simplescreenrecorder.desktop"
+  },
+  {
+    "name": "Sound Juicer",
+    "description": "Copy music from your CDs",
+    "exec": "sound-juicer %u",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/sound-juicer.png",
+    "filename": "sound-juicer.desktop",
+    "id": "sound-juicer.desktop",
+    "path": "/usr/share/applications/sound-juicer.desktop"
+  },
+  {
+    "name": "Synaptic Package Manager",
+    "description": "Install, remove and upgrade software packages",
+    "exec": "synaptic-pkexec",
+    "hidden": false,
+    "icon": "/usr/share/pixmaps/synaptic.png",
+    "filename": "synaptic.desktop",
+    "id": "synaptic.desktop",
+    "path": "/usr/share/applications/synaptic.desktop"
+  },
+  {
+    "name": "Printers",
+    "description": "Configure printers",
+    "exec": "system-config-printer",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/printer.svg",
+    "filename": "system-config-printer.desktop",
+    "id": "system-config-printer.desktop",
+    "path": "/usr/share/applications/system-config-printer.desktop"
+  },
+  {
+    "name": "Thunderbird Mail",
+    "description": "Send and receive mail with Thunderbird",
+    "exec": "thunderbird %u",
+    "hidden": false,
+    "icon": "/usr/share/pixmaps/thunderbird.png",
+    "filename": "thunderbird.desktop",
+    "id": "thunderbird.desktop",
+    "path": "/usr/share/applications/thunderbird.desktop"
+  },
+  {
+    "name": "Tomboy Notes",
+    "description": "Take notes, link ideas, and stay organized",
+    "exec": "tomboy --search",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/tomboy.svg",
+    "filename": "tomboy.desktop",
+    "id": "tomboy.desktop",
+    "path": "/usr/share/applications/tomboy.desktop"
+  },
+  {
+    "name": "Transmission",
+    "description": "Download and share files over BitTorrent",
+    "exec": "transmission-gtk %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/transmission.svg",
+    "filename": "transmission-gtk.desktop",
+    "id": "transmission-gtk.desktop",
+    "path": "/usr/share/applications/transmission-gtk.desktop"
+  },
+  {
+    "name": "Vim",
+    "description": "Edit text files",
+    "exec": "vim %F",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/gvim.svg",
+    "filename": "vim.desktop",
+    "id": "vim.desktop",
+    "path": "/usr/share/applications/vim.desktop"
+  },
+  {
+    "name": "Desktop Sharing",
+    "description": "Choose how other users can remotely view your desktop",
+    "exec": "vino-preferences",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/preferences-desktop-remote-desktop.svg",
+    "filename": "vino-preferences.desktop",
+    "id": "vino-preferences.desktop",
+    "path": "/usr/share/applications/vino-preferences.desktop"
+  },
+  {
+    "name": "VLC media player",
+    "description": "Read, capture, broadcast your multimedia streams",
+    "exec": "/usr/bin/vlc --started-from-file %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/256x256/apps/vlc.png",
+    "filename": "vlc.desktop",
+    "id": "vlc.desktop",
+    "path": "/usr/share/applications/vlc.desktop"
+  },
+  {
+    "name": "Text Editor",
+    "description": "Edit text files",
+    "exec": "xed %U",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/accessories-text-editor.svg",
+    "filename": "xed.desktop",
+    "id": "xed.desktop",
+    "path": "/usr/share/applications/xed.desktop"
+  },
+  {
+    "name": "Media Player",
+    "description": "Play movies",
+    "exec": "xplayer %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/96x96/apps/xplayer.png",
+    "filename": "xplayer.desktop",
+    "id": "xplayer.desktop",
+    "path": "/usr/share/applications/xplayer.desktop"
+  },
+  {
+    "name": "Document Viewer",
+    "description": "View multi-page documents",
+    "exec": "xreader %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/xreader.svg",
+    "filename": "xreader.desktop",
+    "id": "xreader.desktop",
+    "path": "/usr/share/applications/xreader.desktop"
+  },
+  {
+    "name": "Image Viewer",
+    "description": "Browse and rotate images",
+    "exec": "xviewer %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/xviewer.svg",
+    "filename": "xviewer.desktop",
+    "id": "xviewer.desktop",
+    "path": "/usr/share/applications/xviewer.desktop"
+  },
+  {
+    "name": "Brackets",
+    "description": "",
+    "exec": "/opt/brackets/brackets %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/scalable/apps/brackets.svg",
+    "filename": "brackets.desktop",
+    "id": "brackets.desktop",
+    "path": "/usr/local/share/applications/brackets.desktop"
+  },
+  {
+    "name": "Spotify",
+    "description": "Spotify streaming music client",
+    "exec": "spotify %U",
+    "hidden": false,
+    "icon": "/usr/share/icons/hicolor/512x512/apps/spotify-client.png",
+    "filename": "spotify.desktop",
+    "id": "spotify.desktop",
+    "path": "/usr/local/share/applications/spotify.desktop"
+  },
+  {
+    "name": "Termite",
+    "description": "Use the command line",
+    "exec": "termite",
+    "hidden": false,
+    "icon": "/usr/share/app-install/icons/utilities-terminal.svg",
+    "filename": "termite.desktop",
+    "id": "termite.desktop",
+    "path": "/usr/local/share/applications/termite.desktop"
+  }
+]

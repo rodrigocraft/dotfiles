@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+#Ejecución de synaptic
+
+gksudo synaptic

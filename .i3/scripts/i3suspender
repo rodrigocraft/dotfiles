@@ -1,0 +1,2 @@
+#!/bin/sh
+/home/chinorocks/.i3/i3lock-fancy-multimonitor/lock && systemctl suspend

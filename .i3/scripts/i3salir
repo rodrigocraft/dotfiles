@@ -1,0 +1,25 @@
+#!/bin/sh
+lock() {
+    i3lock -p default -i /home/chinorocks/Imágenes/minimalistas/lock.png
+}
+
+case "$1" in
+    salir)
+        i3-msg exit
+        ;;
+    suspender)
+        lock && systemctl suspend
+        ;;
+    hibernar)
+        lock && systemctl hibernate
+        ;;
+    reiniciar)
+        systemctl reboot
+        ;;
+    apagar)
+        systemctl poweroff
+        ;;
+    *)
+        echo "Usage: $0 {kill|lock|logout|suspend|hibernate|reboot|shutdown}"
+        exit 2
+esac

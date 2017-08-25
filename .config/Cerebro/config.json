@@ -1,0 +1,22 @@
+{
+  "locale": "es-419",
+  "lang": "es",
+  "country": "419",
+  "theme": "../dist/main/css/themes/light.css",
+  "hotkey": "Control+Space",
+  "showInTray": true,
+  "firstStart": false,
+  "developerMode": false,
+  "cleanOnHide": true,
+  "skipDonateDialog": false,
+  "lastShownDonateDialog": 1502308393764,
+  "plugins": {},
+  "isMigratedPlugins": true,
+  "openAtLogin": true,
+  "positions": {
+    "8564718740663552": [
+      475,
+      202
+    ]
+  }
+}
